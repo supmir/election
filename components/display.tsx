@@ -1,21 +1,23 @@
 "use client";
-import { ColorMap, PilihanRayaDetails } from "@/data";
+import { motion } from "motion/react";
+
+import { DunDetails, PilihanRayaNegeriDetails } from "@/data";
 import { useEffect, useState } from "react";
 
 interface DisplayProps {
-    data: PilihanRayaDetails[];
-    colorMap: ColorMap;
+    data: PilihanRayaNegeriDetails;
 }
 
 interface Filters {
-    colors: string[];
+    parties: string[];
 }
 
 export default function Display(props: DisplayProps) {
-    const [displayedData, setDisplayedData] = useState(props.data);
-    const { colorMap } = props;
+    const [displayedDunDetails, setDisplayedData] = useState<DunDetails[]>(props.data.dunList);
+    const allParties = Object.keys(props.data.parties);
+
     const [filters, setFilters] = useState<Filters>({
-        colors: Object.keys(colorMap)
+        parties: allParties
     });
 
 
@@ -23,9 +25,14 @@ export default function Display(props: DisplayProps) {
         console.log("Update displayed data");
         console.log(filters);
 
-        const newDisplayedData = props.data.filter((val) => {
-            return filters.colors.includes(val.penamaanMenang.parti.NamaSingkatan);
+        let newDisplayedData: DunDetails[] = [];
+
+        filters.parties.forEach(party => {
+            newDisplayedData = [...newDisplayedData, ...props.data.dunList.filter((val) => {
+                return val.candidates[val.winnnerCandidateSequence].partyCode === party;
+            })];
         });
+
         setDisplayedData(newDisplayedData);
     }
 
@@ -40,41 +47,66 @@ export default function Display(props: DisplayProps) {
             <div className="w-1/2 bg-blue-500"></div>
         </div>
 
+        <div className="flex gap-4 col-span-6 mx-auto">
+            <div className="my-auto">Filters</div>
+            {allParties.map((partyCode, i) => <button key={i}
+                className={`ring-2 p-2 rounded-xl ${filters.parties.includes(partyCode) && "bg-white text-black"}`}
+                onClick={() => {
+                    let parties = [...filters.parties];
+                    const index = parties.indexOf(partyCode);
+                    console.log(index);
+
+                    if (parties.length === allParties.length) {
+                        parties = parties.splice(index, 1);
+                    } else {
+                        if (index === -1) {
+                            parties = [partyCode, ...parties];
+                        } else {
+                            parties.splice(index, 1);
+                        }
+                        if (parties.length === 0) {
+                            parties = allParties;
+                        }
+                    }
+                    setFilters({
+                        ...filters,
+                        parties: parties
+                    });
+                }}
+            >
+                {partyCode}
+            </button>)}
+        </div>
         <div className="grid grid-cols-6 gap-2 mx-auto">
 
-            <div className="flex gap-4 col-span-6">
-                <div className="my-auto">Filters</div>
-                {Object.keys(colorMap).map((val, i) => <div key={i}
-                    className={`ring-2 p-2 rounded-xl ${filters.colors.includes(val) && "bg-white text-black"}`}
-                    onClick={() => {
-                        const index = filters.colors.indexOf(val);
-                        let colors = [...filters.colors];
-                        console.log(index);
+            {displayedDunDetails.map((val) => {
+                const winnerCandidate = val.candidates[val.winnnerCandidateSequence];
+                const winnerPartyCode = winnerCandidate.partyCode;
+                const winnerPartyDetails = props.data.parties[winnerPartyCode];
 
-                        if (index === -1) {
-                            console.log("Push " + val);
-                            colors.push(val);
-                        } else {
-                            console.log("Remove  " + val);
-                            colors = colors.splice(index, 1);
+                return <motion.button
+                    key={val.dunCode}
+                    className={`rounded-full h-24 w-24 flex`}
+
+
+                    layout
+                    layoutId={val.dunName}
+                    initial={
+                        { scale: 0 }
+                    }
+                    animate={{ scale: 1 }}
+                    transition={
+                        {
+                            type: "spring",
+                            damping: 20,
+                            stiffness: 300,
                         }
 
-                        setFilters({
-                            ...filters,
-                            colors: colors
-                        });
-                    }}
+                    }
+                    style={{ backgroundColor: winnerPartyDetails.color || "#fff" }}
                 >
-                    {val}
-                </div>)}
-            </div>
-            {displayedData.map((val, i) => {
-
-                return <div key={i} className={`rounded-full h-24 w-24 flex`}
-
-                    style={{ backgroundColor: val.penamaanMenang.parti.WarnaParti || "#fff" }}>
-                    <div className="m-auto">{val.penamaanMenang.parti.NamaSingkatan}</div>
-                </div>;
+                    <div className="m-auto">{winnerPartyCode}</div>
+                </motion.button>;
             })} </div>
     </div>;
 }
