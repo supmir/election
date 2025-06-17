@@ -1,8 +1,8 @@
 "use client";
-import { motion } from "motion/react";
 
 import { DunDetails, PilihanRayaNegeriDetails } from "@/data";
 import { useEffect, useState } from "react";
+import SeatCircle from "./seatCircle";
 
 interface DisplayProps {
     data: PilihanRayaNegeriDetails;
@@ -83,32 +83,14 @@ export default function Display(props: DisplayProps) {
                 const winnerPartyCode = winnerCandidate.partyCode;
                 const winnerPartyDetails = props.data.parties[winnerPartyCode];
 
-                return <motion.button
-                    key={val.dunCode}
-                    className={`rounded-full h-24 w-24 flex text-neutral-100`}
-
-
-                    layout
+                return <SeatCircle
+                    key={val.dunName}
+                    color={winnerPartyDetails.color}
+                    dunCode={val.dunCode}
                     layoutId={val.dunName}
-                    initial={
-                        { scale: 0 }
-                    }
-                    animate={{ scale: 1 }}
-                    transition={
-                        {
-                            type: "spring",
-                            damping: 20,
-                            stiffness: 300,
-                        }
+                    partyCode={winnerPartyCode}
 
-                    }
-                    style={{ borderColor: winnerPartyDetails.color || "#fff", borderWidth: "8px" }}
-                >
-                    <div className="m-auto flex flex-col">
-                        <div>{winnerPartyCode === "WARISAN" ? "WRSN" : winnerPartyCode}</div>
-                        <div>{val.dunCode}</div>
-                    </div>
-                </motion.button>;
+                />;
             })}
         </div>
     </div>;
