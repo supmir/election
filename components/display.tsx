@@ -1,7 +1,7 @@
 "use client";
 
 import { DunDetails, PilihanRayaNegeriDetails } from "@/data";
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import SeatCircle from "./seatCircle";
 
 interface DisplayProps {
@@ -11,13 +11,24 @@ interface DisplayProps {
 interface Filters {
     parties: string[];
 }
+interface ViewDetail {
+    i: number,
+    displaySeq: number,
+    dunName: string;
+}
 
 export default function Display(props: DisplayProps) {
     const [displayedDunDetails, setDisplayedData] = useState<DunDetails[]>(props.data.dunList);
+    const [viewDetail, setViewDetail] = useState<ViewDetail>({
+        i: -1,
+        displaySeq: -1,
+        dunName: ""
+    });
+
     const allParties = Object.keys(props.data.parties);
 
     const [filters, setFilters] = useState<Filters>({
-        parties: allParties
+        parties: []
     });
 
 
@@ -36,6 +47,7 @@ export default function Display(props: DisplayProps) {
             newDisplayedData = [...props.data.dunList];
 
         setDisplayedData(newDisplayedData);
+        setViewDetail({ i: -1, displaySeq: -1, dunName: "" });
     }
 
     useEffect(() => {
@@ -76,22 +88,64 @@ export default function Display(props: DisplayProps) {
                 {partyCode}
             </button>)}
         </div>
-        <div className="grid grid-cols-6 gap-2 mx-auto">
+        <div className="flex flex-col gap-2 mx-auto">
+            {[...Array(Math.ceil(displayedDunDetails.length / 6))].map((_, i) => {
+                return <Fragment key={i}>
 
-            {displayedDunDetails.map((val) => {
-                const winnerCandidate = val.candidates[val.winnnerCandidateSequence];
-                const winnerPartyCode = winnerCandidate.partyCode;
-                const winnerPartyDetails = props.data.parties[winnerPartyCode];
+                    <div className="grid grid-cols-6 gap-2">
+                        {displayedDunDetails.slice(i * 6, (i + 1) * 6).map((val, j) => {
+                            const winnerCandidate = val.candidates[val.winnnerCandidateSequence];
+                            const winnerPartyCode = winnerCandidate.partyCode;
+                            const winnerPartyDetails = props.data.parties[winnerPartyCode];
 
-                return <SeatCircle
-                    key={val.dunName}
-                    color={winnerPartyDetails.color}
-                    dunCode={val.dunCode}
-                    layoutId={val.dunName}
-                    partyCode={winnerPartyCode}
+                            return <SeatCircle
+                                key={val.dunName}
+                                color={winnerPartyDetails.color}
+                                dunCode={val.dunCode}
+                                layoutId={val.dunName}
+                                partyCode={winnerPartyCode}
+                                onClick={() => {
+                                    if (val.dunName === viewDetail.dunName)
+                                        setViewDetail({ i: -1, displaySeq: -1, dunName: "" });
+                                    else
+                                        setViewDetail(
+                                            {
+                                                i: i,
+                                                displaySeq: i * 6 + j,
+                                                dunName: val.dunName,
+                                            }
+                                        );
+                                }}
 
-                />;
+                            />;
+                        })}
+                    </div>
+                    {viewDetail.displaySeq >= i * 6 && viewDetail.displaySeq < (i + 1) * 6 && <div>
+                        <div className="flex flex-col gap-4 py-4">
+                            <div className="gap-2 flex">
+                                <span className="text-xl font-bold">{displayedDunDetails[viewDetail.displaySeq].dunCode}</span>
+                                <span className="text-lg">
+                                    {displayedDunDetails[viewDetail.displaySeq].dunShortName}
+                                </span>
+                            </div>
+                            <div className="flex flex-col gap-2">
+                                {Object.keys(displayedDunDetails[viewDetail.displaySeq].candidates).map((key, i) => {
+                                    const candidateDetails = displayedDunDetails[viewDetail.displaySeq].candidates[key];
+                                    return <div key={i} className="flex justify-between">
+                                        <div className="flex flex-col gap-1">
+                                            <div className="text-sm">{candidateDetails.candidateName}</div>
+                                            <div className="font-bold">{candidateDetails.partyCode}</div>
+                                        </div>
+                                        <div>{candidateDetails.votes}</div>
+                                    </div>;
+                                })}
+                            </div>
+                        </div>
+                    </div>}
+                </Fragment>;
             })}
+
         </div>
+
     </div>;
 }

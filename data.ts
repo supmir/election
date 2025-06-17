@@ -14,12 +14,12 @@ export interface DunDetails {
     dunShortName: string;
     parliamentCode: string;
     dunCode: string;
-    winnnerCandidateSequence: number;
+    winnnerCandidateSequence: string;
     candidates: CandidateMap;
 }
 
 export interface CandidateMap {
-    [candidateSequence: number]: Candidate;
+    [candidateSequence: string]: Candidate;
 }
 
 export interface Candidate {
