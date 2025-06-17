@@ -26,12 +26,14 @@ export default function Display(props: DisplayProps) {
         console.log(filters);
 
         let newDisplayedData: DunDetails[] = [];
-
-        filters.parties.forEach(party => {
-            newDisplayedData = [...newDisplayedData, ...props.data.dunList.filter((val) => {
-                return val.candidates[val.winnnerCandidateSequence].partyCode === party;
-            })];
-        });
+        if (filters.parties.length > 0)
+            filters.parties.forEach(party => {
+                newDisplayedData = [...newDisplayedData, ...props.data.dunList.filter((val) => {
+                    return val.candidates[val.winnnerCandidateSequence].partyCode === party;
+                })];
+            });
+        else
+            newDisplayedData = [...props.data.dunList];
 
         setDisplayedData(newDisplayedData);
     }
@@ -64,9 +66,6 @@ export default function Display(props: DisplayProps) {
                         } else {
                             parties.splice(index, 1);
                         }
-                        if (parties.length === 0) {
-                            parties = allParties;
-                        }
                     }
                     setFilters({
                         ...filters,
@@ -86,7 +85,7 @@ export default function Display(props: DisplayProps) {
 
                 return <motion.button
                     key={val.dunCode}
-                    className={`rounded-full h-24 w-24 flex`}
+                    className={`rounded-full h-24 w-24 flex text-neutral-100`}
 
 
                     layout
@@ -103,10 +102,14 @@ export default function Display(props: DisplayProps) {
                         }
 
                     }
-                    style={{ backgroundColor: winnerPartyDetails.color || "#fff" }}
+                    style={{ borderColor: winnerPartyDetails.color || "#fff", borderWidth: "8px" }}
                 >
-                    <div className="m-auto">{winnerPartyCode}</div>
+                    <div className="m-auto flex flex-col">
+                        <div>{winnerPartyCode === "WARISAN" ? "WRSN" : winnerPartyCode}</div>
+                        <div>{val.dunCode}</div>
+                    </div>
                 </motion.button>;
-            })} </div>
+            })}
+        </div>
     </div>;
 }
