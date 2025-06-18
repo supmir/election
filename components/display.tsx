@@ -3,6 +3,7 @@
 import { DunDetails, PilihanRayaNegeriDetails } from "@/data";
 import { Fragment, useEffect, useState } from "react";
 import SeatCircle from "./seatCircle";
+import { motion } from "motion/react";
 
 interface DisplayProps {
     data: PilihanRayaNegeriDetails;
@@ -63,7 +64,7 @@ export default function Display(props: DisplayProps) {
             <div className="w-1/2 bg-blue-500"></div>
         </div>
 
-        <div className="flex gap-4 col-span-6 mx-auto">
+        <div className="flex gap-4 col-span-6 mx-auto w-full overflow-x-auto">
             <div className="my-auto">Filters</div>
             {allParties.map((partyCode, i) => <button key={i}
                 className={`ring-2 p-2 rounded-xl ${filters.parties.includes(partyCode) && "bg-white text-black"}`}
@@ -134,7 +135,19 @@ export default function Display(props: DisplayProps) {
                         })}
                     </div>
 
-                    {showDetails && <div>
+                    {showDetails && <motion.div
+                        layout
+                        layoutId={"DetailCard"}
+                        transition={
+                            {
+                                type: "spring",
+                                damping: 20,
+                                stiffness: 300,
+                            }
+
+                        }
+
+                    >
                         <div className="flex flex-col gap-4 py-4">
                             <div className="gap-2 flex">
                                 <span className="text-xl font-bold">{displayedDunDetails[viewDetail.displaySeq].dunCode}</span>
@@ -155,7 +168,7 @@ export default function Display(props: DisplayProps) {
                                 })}
                             </div>
                         </div>
-                    </div>}
+                    </motion.div>}
                 </Fragment>;
             })}
         </div>
