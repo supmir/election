@@ -3,7 +3,7 @@
 import { DunDetails, PilihanRayaNegeriDetails } from "@/data";
 import { Fragment, useEffect, useState } from "react";
 import SeatCircle from "./seatCircle";
-import { motion } from "motion/react";
+import DetailCard from "./detailCard";
 
 interface DisplayProps {
     data: PilihanRayaNegeriDetails;
@@ -135,40 +135,10 @@ export default function Display(props: DisplayProps) {
                         })}
                     </div>
 
-                    {showDetails && <motion.div
-                        layout
-                        layoutId={"DetailCard"}
-                        transition={
-                            {
-                                type: "spring",
-                                damping: 20,
-                                stiffness: 300,
-                            }
+                    {showDetails && <DetailCard
+                        dunDetails={displayedDunDetails[viewDetail.displaySeq]}
 
-                        }
-
-                    >
-                        <div className="flex flex-col gap-4 py-4">
-                            <div className="gap-2 flex">
-                                <span className="text-xl font-bold">{displayedDunDetails[viewDetail.displaySeq].dunCode}</span>
-                                <span className="text-lg">
-                                    {displayedDunDetails[viewDetail.displaySeq].dunShortName}
-                                </span>
-                            </div>
-                            <div className="flex flex-col gap-2">
-                                {Object.keys(displayedDunDetails[viewDetail.displaySeq].candidates).map((key, i) => {
-                                    const candidateDetails = displayedDunDetails[viewDetail.displaySeq].candidates[key];
-                                    return <div key={i} className="flex justify-between">
-                                        <div className="flex flex-col gap-1">
-                                            <div className="text-sm">{candidateDetails.candidateName}</div>
-                                            <div className="font-bold">{candidateDetails.partyCode}</div>
-                                        </div>
-                                        <div>{candidateDetails.votes}</div>
-                                    </div>;
-                                })}
-                            </div>
-                        </div>
-                    </motion.div>}
+                    />}
                 </Fragment>;
             })}
         </div>

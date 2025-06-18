@@ -23,6 +23,7 @@ export interface CandidateMap {
 }
 
 export interface Candidate {
+    candidateSequence: string;
     candidateName: string;
     votes: number;
     partyCode: string;
