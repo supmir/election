@@ -17,6 +17,8 @@ interface ViewDetail {
     dunName: string;
 }
 
+const CHUNK_SIZE = 4;
+
 export default function Display(props: DisplayProps) {
     const [displayedDunDetails, setDisplayedData] = useState<DunDetails[]>(props.data.dunList);
     const [viewDetail, setViewDetail] = useState<ViewDetail>({
@@ -89,38 +91,50 @@ export default function Display(props: DisplayProps) {
             </button>)}
         </div>
         <div className="flex flex-col gap-2 mx-auto">
-            {[...Array(Math.ceil(displayedDunDetails.length / 6))].map((_, i) => {
-                return <Fragment key={i}>
+            {[...Array(Math.ceil(displayedDunDetails.length / CHUNK_SIZE))].map((_, row) => {
+                const start = row * CHUNK_SIZE;
+                const end = start + CHUNK_SIZE;
 
-                    <div className="grid grid-cols-6 gap-2">
-                        {displayedDunDetails.slice(i * 6, (i + 1) * 6).map((val, j) => {
+                const showDetails = viewDetail.displaySeq >= start && viewDetail.displaySeq < end;
+                return <Fragment key={row}>
+                    <div className="grid grid-cols-4">
+                        {displayedDunDetails.slice(start, end).map((val, col) => {
                             const winnerCandidate = val.candidates[val.winnnerCandidateSequence];
                             const winnerPartyCode = winnerCandidate.partyCode;
                             const winnerPartyDetails = props.data.parties[winnerPartyCode];
 
-                            return <SeatCircle
-                                key={val.dunName}
-                                color={winnerPartyDetails.color}
-                                dunCode={val.dunCode}
-                                layoutId={val.dunName}
-                                partyCode={winnerPartyCode}
-                                onClick={() => {
-                                    if (val.dunName === viewDetail.dunName)
-                                        setViewDetail({ i: -1, displaySeq: -1, dunName: "" });
-                                    else
-                                        setViewDetail(
-                                            {
-                                                i: i,
-                                                displaySeq: i * 6 + j,
-                                                dunName: val.dunName,
-                                            }
-                                        );
-                                }}
+                            const displaySeq = start + col;
+                            const isSelected = viewDetail.displaySeq === start + col;
 
-                            />;
+                            return <div
+                                key={val.dunName}
+                                className="flex flex-col"
+                            >
+                                <SeatCircle
+                                    color={winnerPartyDetails.color}
+                                    dunCode={val.dunCode}
+                                    layoutId={val.dunName}
+                                    partyCode={winnerPartyCode}
+                                    onClick={() => {
+                                        if (val.dunName === viewDetail.dunName)
+                                            setViewDetail({ i: -1, displaySeq: -1, dunName: "" });
+                                        else
+                                            setViewDetail(
+                                                {
+                                                    i: row,
+                                                    displaySeq: displaySeq,
+                                                    dunName: val.dunName,
+                                                }
+                                            );
+                                    }}
+                                    isSelected={isSelected}
+                                />
+                                {/* {showDetails && !isSelected && <div className="w-full border-2"></div>} */}
+                            </div>;
                         })}
                     </div>
-                    {viewDetail.displaySeq >= i * 6 && viewDetail.displaySeq < (i + 1) * 6 && <div>
+
+                    {showDetails && <div>
                         <div className="flex flex-col gap-4 py-4">
                             <div className="gap-2 flex">
                                 <span className="text-xl font-bold">{displayedDunDetails[viewDetail.displaySeq].dunCode}</span>
@@ -144,7 +158,6 @@ export default function Display(props: DisplayProps) {
                     </div>}
                 </Fragment>;
             })}
-
         </div>
 
     </div>;

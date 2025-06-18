@@ -5,6 +5,7 @@ interface SeatCircleProps {
     partyCode: string;
     dunCode: string;
     onClick: () => void;
+    isSelected: boolean;
 }
 
 export default function SeatCircle(props: SeatCircleProps) {
@@ -21,14 +22,16 @@ export default function SeatCircle(props: SeatCircleProps) {
             }
 
         }
-        className="h-24 w-24"
+        // style={{ borderColor: isSelected ? "#fff" : "#000" }}
+        className="h-30 w-30 p-1"
+        // className="rounded-t-full border-b-0 border-4 h-30 w-30 p-1 border-dashed"
         onClick={onClick}
     >
         <motion.button
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             style={{ borderColor: color || "#fff", borderWidth: "8px" }}
-            className={`rounded-full h-24 w-24 flex text-neutral-100`}
+            className={`rounded-full h-full w-full flex text-neutral-100`}
         >
 
             <div className="m-auto flex flex-col">
