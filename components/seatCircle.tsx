@@ -23,7 +23,7 @@ export default function SeatCircle(props: SeatCircleProps) {
 
         }
         // style={{ borderColor: isSelected ? "#fff" : "#000" }}
-        className="h-30 w-30 p-1"
+        className="h-24 w-24 text-sm sm:h-30 sm:w-30 sm:text-base p-1"
         // className="rounded-t-full border-b-0 border-4 h-30 w-30 p-1 border-dashed"
         onClick={onClick}
     >
