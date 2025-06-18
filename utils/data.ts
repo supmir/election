@@ -1,5 +1,3 @@
-import { cleanedData } from "./secretData";
-
 export type ColorMap = { [namaSingkatan: string]: string; };
 
 export interface PilihanRayaNegeriDetails {
@@ -37,5 +35,9 @@ export type PartyDetailsMap = {
     [partyCode: string]: PartyDetails;
 };
 
+import datafile from "./data.json";
+export const data: PilihanRayaNegeriDetails = datafile as PilihanRayaNegeriDetails;
 
-export const data: PilihanRayaNegeriDetails = cleanedData;
+// export const data: PilihanRayaNegeriDetails = cleanedData;
+// import fs from 'fs/promises';
+// await fs.writeFile('./data.json', JSON.stringify(cleanedData, null, 2));

@@ -1,6 +1,6 @@
 "use client";
 
-import { DunDetails, PilihanRayaNegeriDetails } from "@/data";
+import { DunDetails, PilihanRayaNegeriDetails } from "@/utils/data";
 import { Fragment, useEffect, useState } from "react";
 import SeatCircle from "./seatCircle";
 import DetailCard from "./detailCard";

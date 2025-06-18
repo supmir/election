@@ -1,4 +1,4 @@
-import { DunDetails } from "@/data";
+import { DunDetails } from "@/utils/data";
 import { motion } from "motion/react";
 
 

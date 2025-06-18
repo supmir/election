@@ -1,0 +1,3407 @@
+{
+  "pilihanRayaName": "PILIHAN RAYA UMUM DUN SABAH KALI KE-16 (2021)",
+  "pilihanRayaDate": "26 Sep 2020",
+  "dunList": [
+    {
+      "dunCode": "N.01",
+      "dunName": "N.01 BANGGI",
+      "dunShortName": "BANGGI",
+      "parliamentCode": "167",
+      "winnnerCandidateSequence": "2",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "AKRAM BIN ISMAIL",
+          "votes": 1070,
+          "partyCode": "BN"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "MOHAMMAD BIN MOHAMARIN",
+          "votes": 1773,
+          "partyCode": "WARISAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "DATU AMIR KAHAR BIN DATU MUSTAPHA",
+          "votes": 261,
+          "partyCode": "BEBAS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "SALBIN BIN MUKSIN",
+          "votes": 48,
+          "partyCode": "USNO"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "MIASIN BIN NUSIRI",
+          "votes": 178,
+          "partyCode": "BEBAS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "KAMRI BIN KAIL",
+          "votes": 523,
+          "partyCode": "PCS"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "ABDUL AZIZ BIN AMIR BANGSAH",
+          "votes": 11,
+          "partyCode": "PPRS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.02",
+      "dunName": "N.02 BENGKOKA",
+      "dunShortName": "BENGKOKA",
+      "parliamentCode": "167",
+      "winnnerCandidateSequence": "11",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "JOSE BIN MODSINUPU",
+          "votes": 159,
+          "partyCode": "PCS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "DR. SAMUIL MOPUN",
+          "votes": 898,
+          "partyCode": "PBS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "PRANSOL TIYING",
+          "votes": 731,
+          "partyCode": "BEBAS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "MARY E DUMPANGOL @ AMINAH AMBROSE",
+          "votes": 399,
+          "partyCode": "BEBAS"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "AKIAN BIN AH KIEW",
+          "votes": 576,
+          "partyCode": "BEBAS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "SOTIJIN BIN JUHUI",
+          "votes": 91,
+          "partyCode": "GAGASAN"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "RITA CHAM",
+          "votes": 19,
+          "partyCode": "PPRS"
+        },
+        "8": {
+          "candidateSequence": "8",
+          "candidateName": "JUNSIM RUMUNZING",
+          "votes": 1201,
+          "partyCode": "UPKO"
+        },
+        "9": {
+          "candidateSequence": "9",
+          "candidateName": "MAKLIN MASIAU",
+          "votes": 1149,
+          "partyCode": "BEBAS"
+        },
+        "10": {
+          "candidateSequence": "10",
+          "candidateName": "OMAR BIN JALUN",
+          "votes": 174,
+          "partyCode": "USNO"
+        },
+        "11": {
+          "candidateSequence": "11",
+          "candidateName": "HARUN BIN DURABI",
+          "votes": 2538,
+          "partyCode": "BN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.03",
+      "dunName": "N.03 PITAS",
+      "dunShortName": "PITAS",
+      "parliamentCode": "167",
+      "winnnerCandidateSequence": "1",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "RUDDY AWAH",
+          "votes": 2918,
+          "partyCode": "BEBAS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "SH SAHAR BIN SH ADING",
+          "votes": 314,
+          "partyCode": "PCS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "SUFIAN BIN ABD KARIM",
+          "votes": 2359,
+          "partyCode": "BN"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "SHARIFF AZMAN",
+          "votes": 1565,
+          "partyCode": "WARISAN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "ILASAM BIN NURKASIM",
+          "votes": 114,
+          "partyCode": "USNO"
+        }
+      }
+    },
+    {
+      "dunCode": "N.04",
+      "dunName": "N.04 TANJONG KAPOR",
+      "dunShortName": "TANJONG KAPOR",
+      "parliamentCode": "167",
+      "winnnerCandidateSequence": "2",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "CHIN KEE YONG",
+          "votes": 1492,
+          "partyCode": "LDP"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "CHONG CHEN BIN",
+          "votes": 7206,
+          "partyCode": "WARISAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "SHAWN DAVEY ROBERT LEE",
+          "votes": 221,
+          "partyCode": "PCS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "NORLIZAH BINTI GURAHMAN",
+          "votes": 5327,
+          "partyCode": "PN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "AWANG KARIM BIN ABDUL KADIR",
+          "votes": 211,
+          "partyCode": "USNO"
+        }
+      }
+    },
+    {
+      "dunCode": "N.05",
+      "dunName": "N.05 MATUNGGONG",
+      "dunShortName": "MATUNGGONG",
+      "parliamentCode": "168",
+      "winnnerCandidateSequence": "6",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "DR. PAUL PORODONG",
+          "votes": 1069,
+          "partyCode": "BEBAS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "SARAPIN BIN MAGANA",
+          "votes": 843,
+          "partyCode": "PCS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "RONALD BIN TAMPASOK",
+          "votes": 82,
+          "partyCode": "BEBAS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "RICHARD KASTUM",
+          "votes": 2859,
+          "partyCode": "BN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "JOSEFF EMMANUEL",
+          "votes": 51,
+          "partyCode": "BEBAS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "JULITA MOJUNGKI",
+          "votes": 4369,
+          "partyCode": "PBS"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "HIBIN BIN MASALIN",
+          "votes": 223,
+          "partyCode": "GAGASAN"
+        },
+        "8": {
+          "candidateSequence": "8",
+          "candidateName": "SAZALYE DONOL BIN ABDULLAH",
+          "votes": 1680,
+          "partyCode": "PKR"
+        }
+      }
+    },
+    {
+      "dunCode": "N.06",
+      "dunName": "N.06 BANDAU",
+      "dunShortName": "BANDAU",
+      "parliamentCode": "168",
+      "winnnerCandidateSequence": "5",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "MAJAMIS BIN TIMBONG",
+          "votes": 2500,
+          "partyCode": "WARISAN"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "WEBLEY DISIM",
+          "votes": 477,
+          "partyCode": "PCS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "DELLY SURAG @ TOLOK",
+          "votes": 58,
+          "partyCode": "BEBAS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "RAPHAEL BIUN ",
+          "votes": 331,
+          "partyCode": "LDP"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "DATUK WETROM BAHANDA",
+          "votes": 5863,
+          "partyCode": "PN"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "AZAHARI BIN AMIT",
+          "votes": 477,
+          "partyCode": "USNO"
+        }
+      }
+    },
+    {
+      "dunCode": "N.07",
+      "dunName": "N.07 TANDEK",
+      "dunShortName": "TANDEK",
+      "parliamentCode": "168",
+      "winnnerCandidateSequence": "1",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "HENDRUS ANDING",
+          "votes": 3796,
+          "partyCode": "PBS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "PADIS MAJINGKIN",
+          "votes": 1986,
+          "partyCode": "UPKO"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "YILLSON YANGGUN",
+          "votes": 1520,
+          "partyCode": "BN"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "ANITA BARANTING ",
+          "votes": 2364,
+          "partyCode": "BEBAS"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "LIENSIN @ DANNY LEINSIN LIMPAKAN",
+          "votes": 236,
+          "partyCode": "LDP"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "ANDY VILLSON",
+          "votes": 395,
+          "partyCode": "PCS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.08",
+      "dunName": "N.08 PINTASAN",
+      "dunShortName": "PINTASAN",
+      "parliamentCode": "169",
+      "winnnerCandidateSequence": "6",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "PANDIKAR AMIN BIN MULIA",
+          "votes": 2660,
+          "partyCode": "USNO"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "PADLAN BIN SAMAD",
+          "votes": 188,
+          "partyCode": "PCS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "ROSLAN BIN MAYAHMAN",
+          "votes": 50,
+          "partyCode": "PPRS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "MOHD SAFIAN BIN SALUDIN",
+          "votes": 1816,
+          "partyCode": "WARISAN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "DATUK ALMUDIN BIN KAIDA",
+          "votes": 780,
+          "partyCode": "BEBAS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "FAIRUZ RENDDAN",
+          "votes": 2744,
+          "partyCode": "PN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.09",
+      "dunName": "N.09 TEMPASUK",
+      "dunShortName": "TEMPASUK",
+      "parliamentCode": "169",
+      "winnnerCandidateSequence": "6",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "MUSTAPHA @ MOHD YUNUS BIN SAKMUD",
+          "votes": 1852,
+          "partyCode": "PKR"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "KANUL GINDOL",
+          "votes": 57,
+          "partyCode": "GAGASAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "ABD. ALIF BIN SAIBEH",
+          "votes": 133,
+          "partyCode": "PCS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "DATUK MUSBAH JAMLI",
+          "votes": 2355,
+          "partyCode": "BEBAS"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "AMZA @ HAMZAH BIN SUNDANG",
+          "votes": 471,
+          "partyCode": "USNO"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "MOHD ARSAD BIN BISTARI",
+          "votes": 4040,
+          "partyCode": "BN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.10",
+      "dunName": "N.10 USUKAN",
+      "dunShortName": "USUKAN",
+      "parliamentCode": "169",
+      "winnnerCandidateSequence": "1",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "SALLEH SAID KERUAK",
+          "votes": 8280,
+          "partyCode": "BN"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "DATU MOHD NAZARUDDIN 13 BIN DATU TIGA BELAS ",
+          "votes": 421,
+          "partyCode": "PCS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "CIKGU ABDUL BAHKRIN BIN MOHD YUSOF",
+          "votes": 3982,
+          "partyCode": "WARISAN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.11",
+      "dunName": "N.11 KADAMAIAN",
+      "dunShortName": "KADAMAIAN",
+      "parliamentCode": "169",
+      "winnnerCandidateSequence": "1",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "EWON BENEDICK",
+          "votes": 6823,
+          "partyCode": "UPKO"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "RAITING @ MOHD FARHAN",
+          "votes": 101,
+          "partyCode": "BEBAS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "LEDUNING BIN LENGIK @ ERNEST ",
+          "votes": 223,
+          "partyCode": "LDP"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "DR.BETING GILING @ JOSHUA",
+          "votes": 799,
+          "partyCode": "PCS"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "DEMIS BIN RUMANTI",
+          "votes": 3364,
+          "partyCode": "PBS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "DUANIS MOGIRONG @ DJUANIS",
+          "votes": 2050,
+          "partyCode": "BN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.12",
+      "dunName": "N.12 SULAMAN",
+      "dunShortName": "SULAMAN",
+      "parliamentCode": "170",
+      "winnnerCandidateSequence": "3",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "REKAN BIN HUSSIEN",
+          "votes": 253,
+          "partyCode": "PCS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "DATUK ALIASGAR BIN BASRI",
+          "votes": 2820,
+          "partyCode": "WARISAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "DATUK SERI PANGLIMA HAJI HAJIJI BIN HAJI NOOR",
+          "votes": 5919,
+          "partyCode": "PN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.13",
+      "dunName": "N.13 PANTAI DALIT",
+      "dunShortName": "PANTAI DALIT",
+      "parliamentCode": "170",
+      "winnnerCandidateSequence": "3",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "JOHAN JAHID",
+          "votes": 244,
+          "partyCode": "BEBAS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "RAKAM SIJIM",
+          "votes": 3074,
+          "partyCode": "WARISAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "JASNIH BIN DAYA",
+          "votes": 6868,
+          "partyCode": "BN"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "RUSDI BIN SAELIH",
+          "votes": 138,
+          "partyCode": "LDP"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "AWIL BIN KAMSARI",
+          "votes": 46,
+          "partyCode": "GAGASAN"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "MUHAMAD AMIRUL AMIN",
+          "votes": 269,
+          "partyCode": "PCS"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "PETER PIKUL",
+          "votes": 236,
+          "partyCode": "BEBAS"
+        },
+        "8": {
+          "candidateSequence": "8",
+          "candidateName": "MATBEE @ MATBEH BIN ISMAIL",
+          "votes": 74,
+          "partyCode": "USNO"
+        }
+      }
+    },
+    {
+      "dunCode": "N.14",
+      "dunName": "N.14 TAMPARULI",
+      "dunShortName": "TAMPARULI",
+      "parliamentCode": "170",
+      "winnnerCandidateSequence": "2",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "ALIJUS @ MOHD ALI BIN SIPIL",
+          "votes": 3326,
+          "partyCode": "PKR"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "JAHID JAHIM",
+          "votes": 6843,
+          "partyCode": "PBS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "DENIS GIMPAH",
+          "votes": 1001,
+          "partyCode": "PCS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "RAYMOND ALFRED @JENRY",
+          "votes": 377,
+          "partyCode": "LDP"
+        }
+      }
+    },
+    {
+      "dunCode": "N.15",
+      "dunName": "N.15 KIULU",
+      "dunShortName": "KIULU",
+      "parliamentCode": "170",
+      "winnnerCandidateSequence": "5",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "DOMINIC YASUN",
+          "votes": 266,
+          "partyCode": "BEBAS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "ANDAU BIN YASUN @ BRUNO",
+          "votes": 363,
+          "partyCode": "PCS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "WILFRED MADIUS TANGAU",
+          "votes": 2786,
+          "partyCode": "UPKO"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "ROZYLYN @ ROSALYN BINTI GELUNU",
+          "votes": 274,
+          "partyCode": "LDP"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "JONISTON BANGKUAI",
+          "votes": 4007,
+          "partyCode": "PBS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "JOLIANIS BIN LAMPOG",
+          "votes": 20,
+          "partyCode": "BEBAS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.16",
+      "dunName": "N.16 KARAMBUNAI",
+      "dunShortName": "KARAMBUNAI",
+      "parliamentCode": "171",
+      "winnnerCandidateSequence": "4",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "AHMAD JAIS BIN OTONG",
+          "votes": 5164,
+          "partyCode": "WARISAN"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "DAYANGKU AYESHA HUMAIRA BINTI AK OTHMAN SHAH",
+          "votes": 315,
+          "partyCode": "PCS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "IBRAHIM BIN LINGGAM",
+          "votes": 90,
+          "partyCode": "USNO"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "YAKUB KHAN",
+          "votes": 5180,
+          "partyCode": "BN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "NERUDIN LUDAH",
+          "votes": 285,
+          "partyCode": "GAGASAN"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "MARAJOH BIN UNDING",
+          "votes": 1053,
+          "partyCode": "LDP"
+        }
+      }
+    },
+    {
+      "dunCode": "N.17",
+      "dunName": "N.17 DARAU",
+      "dunShortName": "DARAU",
+      "parliamentCode": "171",
+      "winnnerCandidateSequence": "3",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "JUMAT BIN IDRIS",
+          "votes": 5243,
+          "partyCode": "BN"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "LALIMAN BIN KEMAD",
+          "votes": 244,
+          "partyCode": "USNO"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "AZHAR BIN MATUSSIN",
+          "votes": 5805,
+          "partyCode": "WARISAN"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "DASIM @ RICKY BIN JIKAH",
+          "votes": 34,
+          "partyCode": "GAGASAN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "HJ ANSARI ABDULLAH",
+          "votes": 280,
+          "partyCode": "PCS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "SUMALI @ MARINO BIN AHMAD",
+          "votes": 322,
+          "partyCode": "LDP"
+        }
+      }
+    },
+    {
+      "dunCode": "N.18",
+      "dunName": "N.18 INANAM",
+      "dunShortName": "INANAM",
+      "parliamentCode": "171",
+      "winnnerCandidateSequence": "3",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "GEORGE NGUI",
+          "votes": 54,
+          "partyCode": "BEBAS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "GOH FAH SHUN @ FRANCIS GOH",
+          "votes": 362,
+          "partyCode": "GAGASAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "PETO GALIM",
+          "votes": 8586,
+          "partyCode": "PKR"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "REGINA LIM @ HOW",
+          "votes": 291,
+          "partyCode": "PCS"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "WILLIAM MAJINBON",
+          "votes": 2948,
+          "partyCode": "PBS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "MOHD HARDY ABDULLAH @ ZORO YUKON",
+          "votes": 156,
+          "partyCode": "USNO"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "ACHMAD NOORASYRUL BIN NOORTAIP",
+          "votes": 286,
+          "partyCode": "BEBAS"
+        },
+        "8": {
+          "candidateSequence": "8",
+          "candidateName": "KENNY CHUA TECK HO",
+          "votes": 2346,
+          "partyCode": "BEBAS"
+        },
+        "9": {
+          "candidateSequence": "9",
+          "candidateName": "CHONG KAH KIAT",
+          "votes": 1606,
+          "partyCode": "LDP"
+        },
+        "10": {
+          "candidateSequence": "10",
+          "candidateName": "TERENCE TSEN",
+          "votes": 255,
+          "partyCode": "ANAK NEGERI"
+        }
+      }
+    },
+    {
+      "dunCode": "N.19",
+      "dunName": "N.19 LIKAS",
+      "dunShortName": "LIKAS",
+      "parliamentCode": "172",
+      "winnnerCandidateSequence": "5",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "CHIA CHUI KET MELANIE",
+          "votes": 95,
+          "partyCode": "BEBAS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "DANIEL ISAAC HOONG",
+          "votes": 81,
+          "partyCode": "USNO"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "SIM FUI",
+          "votes": 276,
+          "partyCode": "LDP"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "CHONG CHEE VUI",
+          "votes": 22,
+          "partyCode": "PPRS"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "TAN LEE FATT",
+          "votes": 8173,
+          "partyCode": "WARISAN"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "DR CHANG KEE YING",
+          "votes": 656,
+          "partyCode": "BN"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "LU SIAU WEE",
+          "votes": 164,
+          "partyCode": "PCS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.20",
+      "dunName": "N.20 API-API",
+      "dunShortName": "API-API",
+      "parliamentCode": "172",
+      "winnnerCandidateSequence": "8",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "LO YAU FOH",
+          "votes": 280,
+          "partyCode": "PPRS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "CHONG TZE KIUN",
+          "votes": 97,
+          "partyCode": "GAGASAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "MARCEL JUDE",
+          "votes": 16,
+          "partyCode": "BEBAS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "CHIN SU PHIN",
+          "votes": 317,
+          "partyCode": "LDP"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "PANG YUK MING",
+          "votes": 431,
+          "partyCode": "PCS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "DR YEE MOH CHAI",
+          "votes": 2449,
+          "partyCode": "PBS"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "NG CHUN SUA",
+          "votes": 41,
+          "partyCode": "BEBAS"
+        },
+        "8": {
+          "candidateSequence": "8",
+          "candidateName": "CHRISTINA LIEW",
+          "votes": 7796,
+          "partyCode": "PKR"
+        },
+        "9": {
+          "candidateSequence": "9",
+          "candidateName": "SIM SIE HONG",
+          "votes": 72,
+          "partyCode": "BEBAS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.21",
+      "dunName": "N.21 LUYANG",
+      "dunShortName": "LUYANG",
+      "parliamentCode": "172",
+      "winnnerCandidateSequence": "4",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "WILSON CHANG KHAI SIM",
+          "votes": 190,
+          "partyCode": "PCS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "DATUK ANTHONY LINGGIAN @ CHONG YUK KEN JP",
+          "votes": 279,
+          "partyCode": "LDP"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "HIEW KING CHEU",
+          "votes": 62,
+          "partyCode": "GAGASAN"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "PHOONG JIN ZHE",
+          "votes": 15510,
+          "partyCode": "WARISAN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "CHIN LING LING",
+          "votes": 97,
+          "partyCode": "BEBAS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "GEE TIEN SIONG",
+          "votes": 989,
+          "partyCode": "PN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.22",
+      "dunName": "N.22 TANJUNG ARU",
+      "dunShortName": "TANJUNG ARU",
+      "parliamentCode": "173",
+      "winnnerCandidateSequence": "7",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "IR. EDWARD YONG OUI FAH",
+          "votes": 647,
+          "partyCode": "PBS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "JAN CHOW YEE FAH",
+          "votes": 18,
+          "partyCode": "BEBAS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "IBRAHIM BIN OKK MOHD LAIMAN DIKI   ",
+          "votes": 179,
+          "partyCode": "LDP"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "SHAFFIC BIN RISAIB SHAH",
+          "votes": 88,
+          "partyCode": "USNO"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "NORAN ADDY BIN SUKIRAN",
+          "votes": 241,
+          "partyCode": "PCS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "RIZAWANI FIONA HENG",
+          "votes": 25,
+          "partyCode": "GAGASAN"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "JUNZ WONG",
+          "votes": 5685,
+          "partyCode": "WARISAN"
+        },
+        "8": {
+          "candidateSequence": "8",
+          "candidateName": "MOHD REDUAN AKLEE",
+          "votes": 2538,
+          "partyCode": "BN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.23",
+      "dunName": "N.23 PETAGAS",
+      "dunShortName": "PETAGAS",
+      "parliamentCode": "173",
+      "winnnerCandidateSequence": "2",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "AHMAD FARID BIN SAINURI",
+          "votes": 355,
+          "partyCode": "PCS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "AWANG AHMAD SAH",
+          "votes": 4125,
+          "partyCode": "WARISAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "JECKY LETTONG @ THADDEUS JACK",
+          "votes": 118,
+          "partyCode": "LDP"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "MOHAMAD BIN KULAT",
+          "votes": 33,
+          "partyCode": "GAGASAN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "PAUL NOINTIEN ",
+          "votes": 572,
+          "partyCode": "BEBAS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "ARSIT BIN SEDI@SIDIK",
+          "votes": 3864,
+          "partyCode": "PN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.24",
+      "dunName": "N.24 TANJUNG KERAMAT",
+      "dunShortName": "TANJUNG KERAMAT",
+      "parliamentCode": "173",
+      "winnnerCandidateSequence": "5",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "FAEZAH IBNU",
+          "votes": 329,
+          "partyCode": "LDP"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "MOHD.SALLEH BIN LAMSIN",
+          "votes": 122,
+          "partyCode": "USNO"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "IRA UZAIR",
+          "votes": 363,
+          "partyCode": "PCS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "ROSDY BIN WASLI",
+          "votes": 3470,
+          "partyCode": "WARISAN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "IR. SHAHELMEY YAHYA",
+          "votes": 4594,
+          "partyCode": "BN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.25",
+      "dunName": "N.25 KAPAYAN",
+      "dunShortName": "KAPAYAN",
+      "parliamentCode": "174",
+      "winnnerCandidateSequence": "2",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "YONG WUI CHUNG",
+          "votes": 428,
+          "partyCode": "LDP"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "JANNIE LASIMBANG",
+          "votes": 15052,
+          "partyCode": "WARISAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "LU YEN TUNG ",
+          "votes": 1889,
+          "partyCode": "BN"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "CHUA JUAN SHIUH",
+          "votes": 325,
+          "partyCode": "PCS"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "DR. EDWIN @ JACK BOSI",
+          "votes": 803,
+          "partyCode": "PBS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "STEPHEN JACOB JIMBANGAN",
+          "votes": 892,
+          "partyCode": "GAGASAN"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "CHEW SHUNG SENG",
+          "votes": 58,
+          "partyCode": "BEBAS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.26",
+      "dunName": "N.26 MOYOG",
+      "dunShortName": "MOYOG",
+      "parliamentCode": "174",
+      "winnnerCandidateSequence": "6",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "JOE SULEIMAN",
+          "votes": 2502,
+          "partyCode": "PN"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "MARCEL ANNOL",
+          "votes": 185,
+          "partyCode": "LDP"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "WILLIAM SAMPIL",
+          "votes": 975,
+          "partyCode": "PCS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "ROBERT RICHARD FOO",
+          "votes": 71,
+          "partyCode": "BEBAS"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "VINSON LOIJON @ PATRICK",
+          "votes": 82,
+          "partyCode": "PPRS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "DARELL LEIKING",
+          "votes": 8437,
+          "partyCode": "WARISAN"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "JOHN CHRYSO BIN MASABAL",
+          "votes": 1175,
+          "partyCode": "PBS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.27",
+      "dunName": "N.27 LIMBAHAU",
+      "dunShortName": "LIMBAHAU",
+      "parliamentCode": "175",
+      "winnnerCandidateSequence": "6",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "CORNELIUS FREDERICK @ MICHAEL FJ SULIP",
+          "votes": 473,
+          "partyCode": "LDP"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "SUSANNA JAINIM JARIS",
+          "votes": 54,
+          "partyCode": "USNO"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "AUBREY G SHAM",
+          "votes": 249,
+          "partyCode": "PCS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "PIUS BIN LOKIOM",
+          "votes": 64,
+          "partyCode": "BEBAS"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "LAURENCE ONJUMAN",
+          "votes": 354,
+          "partyCode": "BEBAS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "JUIL NUATIM",
+          "votes": 5194,
+          "partyCode": "WARISAN"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "EVELYN JUNE CHARLIE",
+          "votes": 34,
+          "partyCode": "GAGASAN"
+        },
+        "8": {
+          "candidateSequence": "8",
+          "candidateName": "DATUK JOHNNY MOSITUN",
+          "votes": 2671,
+          "partyCode": "PBS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.28",
+      "dunName": "N.28 KAWANG",
+      "dunShortName": "KAWANG",
+      "parliamentCode": "175",
+      "winnnerCandidateSequence": "2",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "JANRYWINE J LUSIN",
+          "votes": 119,
+          "partyCode": "LDP"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "DATUK GULAMHAIDAR @ YUSOF BIN KHAN BAHADAR",
+          "votes": 7747,
+          "partyCode": "PN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "MUSLI BIN SAPAN @ MUSHAFIEN",
+          "votes": 2653,
+          "partyCode": "WARISAN"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "ABDUL RAHIM HJ. LASSIM",
+          "votes": 192,
+          "partyCode": "PCS"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "AWANG ARIP BIN NASIB @ AG ARIF BIN NASIP",
+          "votes": 163,
+          "partyCode": "USNO"
+        }
+      }
+    },
+    {
+      "dunCode": "N.29",
+      "dunName": "N.29 PANTAI MANIS",
+      "dunShortName": "PANTAI MANIS",
+      "parliamentCode": "175",
+      "winnnerCandidateSequence": "3",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "MAZRECA JOHN",
+          "votes": 127,
+          "partyCode": "LDP"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "YAHIYA BIN AG KAHAR",
+          "votes": 4430,
+          "partyCode": "WARISAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "MOHD TAMIN @ TAMIN BIN ZAINAL",
+          "votes": 5116,
+          "partyCode": "BN"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "AG DAMIT @ AG SAHZAIN PG ABD RAZAK",
+          "votes": 151,
+          "partyCode": "USNO"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "FAUZI BIN IBRAHIM",
+          "votes": 499,
+          "partyCode": "PCS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.30",
+      "dunName": "N.30 BONGAWAN",
+      "dunShortName": "BONGAWAN",
+      "parliamentCode": "176",
+      "winnnerCandidateSequence": "2",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "HJ AG SYAIRIN",
+          "votes": 3548,
+          "partyCode": "BN"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "DAUD BIN YUSOF",
+          "votes": 5400,
+          "partyCode": "WARISAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "MOHD AZREE BIN ABD GHANI",
+          "votes": 232,
+          "partyCode": "LDP"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "ANIFAH AMAN",
+          "votes": 3598,
+          "partyCode": "PCS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.31",
+      "dunName": "N.31 MEMBAKUT",
+      "dunShortName": "MEMBAKUT",
+      "parliamentCode": "176",
+      "winnnerCandidateSequence": "3",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "AG DURAMIN TAFA",
+          "votes": 588,
+          "partyCode": "BEBAS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "SAAT BIN AG. DAMIT",
+          "votes": 526,
+          "partyCode": "PCS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "MOHD ARIFIN BIN MOHD ARIF",
+          "votes": 6363,
+          "partyCode": "PN"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "MOHD. KAMARUDDIN BIN ABD. HAMID",
+          "votes": 2942,
+          "partyCode": "WARISAN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "SENIATI BIN ABD GHANI",
+          "votes": 63,
+          "partyCode": "USNO"
+        }
+      }
+    },
+    {
+      "dunCode": "N.32",
+      "dunName": "N.32 KLIAS",
+      "dunShortName": "KLIAS",
+      "parliamentCode": "177",
+      "winnnerCandidateSequence": "2",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "ABDUL RAHMAN BIN MD YAKUB",
+          "votes": 2810,
+          "partyCode": "PKR"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "DATUK ISNIN HJ.ALIASNIH",
+          "votes": 6711,
+          "partyCode": "PN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "JISMIT BIN JAPONG",
+          "votes": 86,
+          "partyCode": "BEBAS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "AMSIR BIN DANI",
+          "votes": 122,
+          "partyCode": "USNO"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "ABDULLAH BIN OKIN",
+          "votes": 1419,
+          "partyCode": "PCS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "MAKSIT BIN SAIDI",
+          "votes": 55,
+          "partyCode": "GAGASAN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.33",
+      "dunName": "N.33 KUALA PENYU",
+      "dunShortName": "KUALA PENYU",
+      "parliamentCode": "177",
+      "winnnerCandidateSequence": "1",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "LIMUS BIN JURY",
+          "votes": 6256,
+          "partyCode": "PN"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "PARIJIK @ FREDZEX BIN BAGANG",
+          "votes": 84,
+          "partyCode": "GAGASAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "JEPRI BIN MAPAT",
+          "votes": 138,
+          "partyCode": "LDP"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "MOHD FADZLEE LEE ABDULLAH @ CHUN LEE",
+          "votes": 2947,
+          "partyCode": "BEBAS"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "NELSON W. ANGANG",
+          "votes": 2983,
+          "partyCode": "UPKO"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "CECILIA JOMPIUH",
+          "votes": 181,
+          "partyCode": "PCS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.34",
+      "dunName": "N.34 LUMADAN",
+      "dunShortName": "LUMADAN",
+      "parliamentCode": "178",
+      "winnnerCandidateSequence": "6",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "SAHLIH BIN SIRIN",
+          "votes": 44,
+          "partyCode": "GAGASAN"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "KAMARLIN BIN OMBI",
+          "votes": 3286,
+          "partyCode": "BN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "ALI DAD FAZAL ELAHI",
+          "votes": 254,
+          "partyCode": "USNO"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "MALIK BIN UNSAT @ JAHARI",
+          "votes": 231,
+          "partyCode": "PCS"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "DAYANG AEZZY BINTI LIMAN",
+          "votes": 59,
+          "partyCode": "HARAPAN RAKYAT"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "RUSLAN MUHARAM",
+          "votes": 3650,
+          "partyCode": "PBS"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "JOHARI BIN MOHD DUN",
+          "votes": 135,
+          "partyCode": "PPRS"
+        },
+        "8": {
+          "candidateSequence": "8",
+          "candidateName": "MOHD SAIDI BIN MANAN",
+          "votes": 46,
+          "partyCode": "BEBAS"
+        },
+        "9": {
+          "candidateSequence": "9",
+          "candidateName": "AG. KU ZAIDI BIN PG. WAHAB",
+          "votes": 2859,
+          "partyCode": "WARISAN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.35",
+      "dunName": "N.35 SINDUMIN",
+      "dunShortName": "SINDUMIN",
+      "parliamentCode": "178",
+      "winnnerCandidateSequence": "4",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "MANSHUR @ MANSHOR BIN OKK MOHD YASSIN",
+          "votes": 365,
+          "partyCode": "USNO"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "ARIFIN BIN HARITH",
+          "votes": 34,
+          "partyCode": "GAGASAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "DANIEL GAING @ GEORGE DANIEL",
+          "votes": 142,
+          "partyCode": "LDP"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "DATUK DR YUSOF",
+          "votes": 5415,
+          "partyCode": "WARISAN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "SANI BIN MIASIN",
+          "votes": 4991,
+          "partyCode": "BN"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "JAEBEH @ JAYBEE BIN BUAYA @ BUAYIE",
+          "votes": 114,
+          "partyCode": "PCS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.36",
+      "dunName": "N.36 KUNDASANG",
+      "dunShortName": "KUNDASANG",
+      "parliamentCode": "179",
+      "winnnerCandidateSequence": "3",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "JEAFRY GOH KAUTAH",
+          "votes": 293,
+          "partyCode": "LDP"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "OSMAN MARAJIN",
+          "votes": 75,
+          "partyCode": "GAGASAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "DR. JOACHIM GUNSALAM",
+          "votes": 4332,
+          "partyCode": "PBS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "EWON BIN EBIN",
+          "votes": 2384,
+          "partyCode": "PCS"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "SIRIMAN HJ. BASIR",
+          "votes": 2910,
+          "partyCode": "WARISAN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.37",
+      "dunName": "N.37 KARANAAN",
+      "dunShortName": "KARANAAN",
+      "parliamentCode": "179",
+      "winnnerCandidateSequence": "4",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "HADZRUL MASNIN",
+          "votes": 434,
+          "partyCode": "PCS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "MD TAJUDDIN BIN SADI",
+          "votes": 74,
+          "partyCode": "USNO"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "AWASI GANIE @ YASIN BIN ABDUL GHANI",
+          "votes": 1882,
+          "partyCode": "WARISAN"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "DATUK MASIDI BIN MANJUN @ MASDI",
+          "votes": 6696,
+          "partyCode": "PN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.38",
+      "dunName": "N.38 PAGINATAN",
+      "dunShortName": "PAGINATAN",
+      "parliamentCode": "179",
+      "winnnerCandidateSequence": "3",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "JEMADI @ JUNAIDI BIN SAHAT",
+          "votes": 2460,
+          "partyCode": "BN"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "DATUK HENRYNUS AMIN",
+          "votes": 349,
+          "partyCode": "ANAK NEGERI"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": " ABIDIN BIN MADINGKIR ",
+          "votes": 3783,
+          "partyCode": "PN"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "BENSIN @ BINSIN BIN DANI",
+          "votes": 52,
+          "partyCode": "GAGASAN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "GEORGINA GEORGE",
+          "votes": 1245,
+          "partyCode": "UPKO"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "ARTHUR SEN SIONG CHOO @ SIN SIONG CHOI",
+          "votes": 1588,
+          "partyCode": "PBS"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "LIONG SUN MIN @ SUN MIN BIN LIMATOK",
+          "votes": 118,
+          "partyCode": "LDP"
+        },
+        "8": {
+          "candidateSequence": "8",
+          "candidateName": "KAMIL BIN KASIBUN",
+          "votes": 112,
+          "partyCode": "USNO"
+        },
+        "9": {
+          "candidateSequence": "9",
+          "candidateName": "AMRU BIN ABD KADIR",
+          "votes": 905,
+          "partyCode": "PCS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.39",
+      "dunName": "N.39 TAMBUNAN",
+      "dunShortName": "TAMBUNAN",
+      "parliamentCode": "180",
+      "winnnerCandidateSequence": "6",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "SILVERIUS BRUNO",
+          "votes": 439,
+          "partyCode": "PBS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "DAMIAN MARCUS PODTUNG",
+          "votes": 326,
+          "partyCode": "PCS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "LAURENTIUS NAYAN AMBU ",
+          "votes": 1899,
+          "partyCode": "UPKO"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "NORDIN BIN JAINI @ ZAINI",
+          "votes": 140,
+          "partyCode": "GAGASAN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "JIMMY PALIKAT",
+          "votes": 60,
+          "partyCode": "BEBAS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "DATUK DR. JEFFREY G. KITINGAN",
+          "votes": 8691,
+          "partyCode": "PN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.40",
+      "dunName": "N.40 BINGKOR",
+      "dunShortName": "BINGKOR",
+      "parliamentCode": "180",
+      "winnnerCandidateSequence": "6",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "PETER SAILI",
+          "votes": 2821,
+          "partyCode": "WARISAN"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "ALPHONSUS BIN FELIX",
+          "votes": 447,
+          "partyCode": "PCS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "ENGAH BIN SINTAN @ DAHLAN BIN ABDULLAH",
+          "votes": 104,
+          "partyCode": "USNO"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "PETER JINO ALLION",
+          "votes": 298,
+          "partyCode": "PBS"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "JULIUS FAVIANUS",
+          "votes": 210,
+          "partyCode": "LDP"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "ROBERT TAWIK",
+          "votes": 7891,
+          "partyCode": "PN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.41",
+      "dunName": "N.41 LIAWAN",
+      "dunShortName": "LIAWAN",
+      "parliamentCode": "180",
+      "winnnerCandidateSequence": "4",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "DATUK JAKE NOINTIN",
+          "votes": 1835,
+          "partyCode": "BEBAS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "YATIN KUKUNG",
+          "votes": 45,
+          "partyCode": "LDP"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "DANIEL KINSIK",
+          "votes": 1084,
+          "partyCode": "PBS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "ANNUAR AYUB @ BANAND",
+          "votes": 4628,
+          "partyCode": "PN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "MAZLAN BIN ABDUL LATIFF",
+          "votes": 209,
+          "partyCode": "PCS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "RASININ BIN KOUTIS @ KAUTIS",
+          "votes": 3987,
+          "partyCode": "WARISAN"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "LEONG CHAU CHU",
+          "votes": 43,
+          "partyCode": "USNO"
+        }
+      }
+    },
+    {
+      "dunCode": "N.42",
+      "dunName": "N.42 MELALAP",
+      "dunShortName": "MELALAP",
+      "parliamentCode": "181",
+      "winnnerCandidateSequence": "4",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "APIANG BIN SAUSUN",
+          "votes": 268,
+          "partyCode": "PCS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "DATUK SERI RADIN MALLEH ",
+          "votes": 1359,
+          "partyCode": "PBS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "SAZALI BIN JUSTI",
+          "votes": 32,
+          "partyCode": "USNO"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "PETER ANTHONY",
+          "votes": 5245,
+          "partyCode": "WARISAN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "MASDIN BIN TUMAS",
+          "votes": 23,
+          "partyCode": "LDP"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "JAMAWI  JAAFAR",
+          "votes": 3526,
+          "partyCode": "BN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.43",
+      "dunName": "N.43 KEMABONG",
+      "dunShortName": "KEMABONG",
+      "parliamentCode": "181",
+      "winnnerCandidateSequence": "5",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "LUCAS UMBUL",
+          "votes": 3202,
+          "partyCode": "UPKO"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "TAY JIN KIONG @ ALFRED",
+          "votes": 229,
+          "partyCode": "PCS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "RAINUS BIN SAGULAU",
+          "votes": 73,
+          "partyCode": "USNO"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "RAIME BIN UNGGI",
+          "votes": 2966,
+          "partyCode": "BN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "RUBIN BIN BALANG",
+          "votes": 4214,
+          "partyCode": "BEBAS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "JUSTER BIN PETER",
+          "votes": 268,
+          "partyCode": "LDP"
+        }
+      }
+    },
+    {
+      "dunCode": "N.44",
+      "dunName": "N.44 TULID",
+      "dunShortName": "TULID",
+      "parliamentCode": "182",
+      "winnnerCandidateSequence": "3",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "DAHALAN @ ULIN BIN ABDULLAH @ AMIL",
+          "votes": 52,
+          "partyCode": "LDP"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "MUDI BIN DUBING",
+          "votes": 1589,
+          "partyCode": "WARISAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "FLOVIA NG",
+          "votes": 2267,
+          "partyCode": "PN"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "MOHAMAD KHAIRY BIN ABDULLAH ",
+          "votes": 69,
+          "partyCode": "USNO"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "MATUSIN BIN TIMAM",
+          "votes": 356,
+          "partyCode": "PCS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "MATUSIN BOWIE",
+          "votes": 1723,
+          "partyCode": "BN"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "SUMAN YASAMBUN",
+          "votes": 720,
+          "partyCode": "PBS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.45",
+      "dunName": "N.45 SOOK",
+      "dunShortName": "SOOK",
+      "parliamentCode": "182",
+      "winnnerCandidateSequence": "1",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "ELLRON BIN ANGIN",
+          "votes": 3554,
+          "partyCode": "PN"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "REBECCA TAIMIN",
+          "votes": 88,
+          "partyCode": "PCS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "RAYMOND AHUAR",
+          "votes": 2322,
+          "partyCode": "PKR"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "BONEPES BEEN",
+          "votes": 1535,
+          "partyCode": "BN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "ANING BIN ANSAWANG",
+          "votes": 110,
+          "partyCode": "LDP"
+        }
+      }
+    },
+    {
+      "dunCode": "N.46",
+      "dunName": "N.46 NABAWAN",
+      "dunShortName": "NABAWAN",
+      "parliamentCode": "182",
+      "winnnerCandidateSequence": "1",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "DATUK ABD. GHANI MOHD. YASSIN",
+          "votes": 4688,
+          "partyCode": "PN"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "MAIKOL BIN AMPUAS",
+          "votes": 128,
+          "partyCode": "BEBAS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "AMPALUS @ ROBERT SANARON",
+          "votes": 1115,
+          "partyCode": "PCS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "ALBERT AGUIR",
+          "votes": 2450,
+          "partyCode": "UPKO"
+        }
+      }
+    },
+    {
+      "dunCode": "N.47",
+      "dunName": "N.47 TELUPID",
+      "dunShortName": "TELUPID",
+      "parliamentCode": "183",
+      "winnnerCandidateSequence": "3",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "FELIX JOSEPH SITIN",
+          "votes": 1581,
+          "partyCode": "UPKO"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "TAKUN B. LADAS @ MOHD JOHAN SUALAN MADINAL",
+          "votes": 54,
+          "partyCode": "LDP"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "JONNYBONE J KURUM",
+          "votes": 2266,
+          "partyCode": "PBS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "ABDUL WAHAB BIN ABDUL GHANI",
+          "votes": 1389,
+          "partyCode": "BN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "JINGKOI BIN LUNA",
+          "votes": 68,
+          "partyCode": "PCS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.48",
+      "dunName": "N.48 SUGUT",
+      "dunShortName": "SUGUT",
+      "parliamentCode": "183",
+      "winnnerCandidateSequence": "3",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "KAMARUDDIN BIN JAMIL",
+          "votes": 86,
+          "partyCode": "PPRS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "JUBIN BIN TULAWI",
+          "votes": 38,
+          "partyCode": "USNO"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "DATUK JAMES RATIB",
+          "votes": 4308,
+          "partyCode": "BN"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "NORSABRINA BINTI JAPAR",
+          "votes": 2644,
+          "partyCode": "WARISAN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "RAIMON LANJAT",
+          "votes": 124,
+          "partyCode": "PCS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "RAZAK ALLEXSIUS KONTUNI",
+          "votes": 178,
+          "partyCode": "LDP"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "UNDANG BIN JALANG",
+          "votes": 65,
+          "partyCode": "BEBAS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.49",
+      "dunName": "N.49 LABUK",
+      "dunShortName": "LABUK",
+      "parliamentCode": "183",
+      "winnnerCandidateSequence": "2",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "DENNIS T. RANTAU",
+          "votes": 1493,
+          "partyCode": "UPKO"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "SAMAD BIN JAMBRI",
+          "votes": 2701,
+          "partyCode": "PN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "SH. SUHAIMI BIN SH. MIASIN",
+          "votes": 108,
+          "partyCode": "USNO"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "ABDUL RAHMAN BIN KONGKAWANG",
+          "votes": 1441,
+          "partyCode": "BEBAS"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "FIDELIS K. MICHAEL",
+          "votes": 115,
+          "partyCode": "PCS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.50",
+      "dunName": "N.50 GUM-GUM",
+      "dunShortName": "GUM-GUM",
+      "parliamentCode": "184",
+      "winnnerCandidateSequence": "2",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "YUNUS BIN NURDIN",
+          "votes": 1690,
+          "partyCode": "BEBAS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "ARUNARNSIN BIN TAIB",
+          "votes": 3140,
+          "partyCode": "WARISAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "UNDANG BIN TUMPONG",
+          "votes": 172,
+          "partyCode": "PCS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "SUHAIMI BIN NASIR",
+          "votes": 2871,
+          "partyCode": "BN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "JAINUDIN BIN BERAHIM",
+          "votes": 113,
+          "partyCode": "LDP"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "RIDUAN BIN SAMPAI",
+          "votes": 23,
+          "partyCode": "PPRS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.51",
+      "dunName": "N.51 SUNGAI MANILA",
+      "dunShortName": "SUNGAI MANILA",
+      "parliamentCode": "184",
+      "winnnerCandidateSequence": "5",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "M D ANUAR BIN MA YUSUF",
+          "votes": 100,
+          "partyCode": "LDP"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "MOHD ARSHAD BIN ABDUL",
+          "votes": 90,
+          "partyCode": "PPRS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "SAHIDZAN BIN AG SALLEH",
+          "votes": 191,
+          "partyCode": "PCS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "MAHMUD BIN SUDIN",
+          "votes": 3168,
+          "partyCode": "WARISAN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "MOKRAN BIN INGKAT",
+          "votes": 4585,
+          "partyCode": "BN"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "K ZULKIPLI @ K ZULKIFLI BIN HARRITH",
+          "votes": 111,
+          "partyCode": "USNO"
+        }
+      }
+    },
+    {
+      "dunCode": "N.52",
+      "dunName": "N.52 SUNGAI SIBUGA",
+      "dunShortName": "SUNGAI SIBUGA",
+      "parliamentCode": "184",
+      "winnnerCandidateSequence": "1",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "HJ MOHAMAD HAMSAN",
+          "votes": 7545,
+          "partyCode": "BN"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "IRWANSHAH BIN MUSTAPA",
+          "votes": 526,
+          "partyCode": "PCS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "MOHD JAIN BIN ALIUDDIN",
+          "votes": 114,
+          "partyCode": "PPRS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "KEMELLIA BINTI HASAN",
+          "votes": 126,
+          "partyCode": "LDP"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "ARMANI BINTI MAHIRUDDIN",
+          "votes": 6007,
+          "partyCode": "WARISAN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.53",
+      "dunName": "N.53 SEKONG",
+      "dunShortName": "SEKONG",
+      "parliamentCode": "185",
+      "winnnerCandidateSequence": "2",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "SARAN BIN JUMDAIL",
+          "votes": 63,
+          "partyCode": "USNO"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "CIKGU ALIAS BIN SANI",
+          "votes": 5937,
+          "partyCode": "WARISAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "MOHD FAZIL BIN AJAK",
+          "votes": 102,
+          "partyCode": "LDP"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "ABIDIN BIN SUKOR",
+          "votes": 87,
+          "partyCode": "PPRS"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "SITTI NURUL AIN SAHIDAH BT PITTING",
+          "votes": 253,
+          "partyCode": "PCS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "HAZULIZAH MOHD DANI",
+          "votes": 4338,
+          "partyCode": "BN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.54",
+      "dunName": "N.54 KARAMUNTING",
+      "dunShortName": "KARAMUNTING",
+      "parliamentCode": "185",
+      "winnnerCandidateSequence": "3",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "ADAM CHAL",
+          "votes": 306,
+          "partyCode": "USNO"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "LOO MUN YEW",
+          "votes": 81,
+          "partyCode": "PCS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "HIEW VUN ZIN",
+          "votes": 5694,
+          "partyCode": "WARISAN"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "HA CHEUN HOO",
+          "votes": 129,
+          "partyCode": "LDP"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "KONG NYUK THOU",
+          "votes": 235,
+          "partyCode": "PBS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "CHEW KOK WOH",
+          "votes": 3215,
+          "partyCode": "BN"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "LEE TIANG  YONG @ LEE CHEE UI",
+          "votes": 30,
+          "partyCode": "PPRS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.55",
+      "dunName": "N.55 ELOPURA",
+      "dunShortName": "ELOPURA",
+      "parliamentCode": "186",
+      "winnnerCandidateSequence": "2",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "VOO MIN GIN",
+          "votes": 167,
+          "partyCode": "PCS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "CALVIN CHONG",
+          "votes": 10871,
+          "partyCode": "WARISAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "CHAN BOON THIAN",
+          "votes": 3188,
+          "partyCode": "BN"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "CHONG THIEN MING ",
+          "votes": 226,
+          "partyCode": "LDP"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "KHAIRIAH @ SITI KHAIRIAH BINTI S.MOHD",
+          "votes": 224,
+          "partyCode": "USNO"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "PAK ANDI @ MOHD SAINI",
+          "votes": 93,
+          "partyCode": "PPRS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.56",
+      "dunName": "N.56 TANJONG PAPAT",
+      "dunShortName": "TANJONG PAPAT",
+      "parliamentCode": "186",
+      "winnnerCandidateSequence": "5",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "CHUNG YU SENG",
+          "votes": 79,
+          "partyCode": "PCS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "LAM JIN DAK",
+          "votes": 62,
+          "partyCode": "LDP"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "NORAINI BINTI SULONG",
+          "votes": 98,
+          "partyCode": "BEBAS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "KEN YONG",
+          "votes": 2157,
+          "partyCode": "PN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "POON MING FUNG @ FRANKIE",
+          "votes": 5900,
+          "partyCode": "WARISAN"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "MOHD YUNUS BIN APIL",
+          "votes": 345,
+          "partyCode": "USNO"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "JAMAL BIN ALI",
+          "votes": 35,
+          "partyCode": "PPRS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.57",
+      "dunName": "N.57 KUAMUT",
+      "dunShortName": "KUAMUT",
+      "parliamentCode": "187",
+      "winnnerCandidateSequence": "1",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "MASIUNG BANAH",
+          "votes": 2802,
+          "partyCode": "BEBAS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "BENSON INGGAM",
+          "votes": 1824,
+          "partyCode": "UPKO"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "MOHD MEZSI NG ABDULLAH",
+          "votes": 721,
+          "partyCode": "PCS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "JUHARI BIN JANAN",
+          "votes": 1547,
+          "partyCode": "BN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "DR. ATIONG BIN TITUH",
+          "votes": 270,
+          "partyCode": "GAGASAN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.58",
+      "dunName": "N.58 LAMAG",
+      "dunShortName": "LAMAG",
+      "parliamentCode": "187",
+      "winnnerCandidateSequence": "4",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "JUNNY @ KARUAK BIN ABDULLAH",
+          "votes": 73,
+          "partyCode": "BEBAS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "MOHD ISMAIL HJ AYOB",
+          "votes": 2374,
+          "partyCode": "WARISAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "SAIRIN ABD.RAHMAN",
+          "votes": 61,
+          "partyCode": "PPRS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "BUNG MOKTAR BIN RADIN",
+          "votes": 3035,
+          "partyCode": "BN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "RAZMAN BIN MAYAH",
+          "votes": 71,
+          "partyCode": "PCS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.59",
+      "dunName": "N.59 SUKAU",
+      "dunShortName": "SUKAU",
+      "parliamentCode": "187",
+      "winnnerCandidateSequence": "1",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "JAFRY ARIFFIN",
+          "votes": 3763,
+          "partyCode": "BN"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "MALAYA BIN KASURAH",
+          "votes": 94,
+          "partyCode": "PCS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "DATUK SADDI HAJI ABDUL RAHMAN",
+          "votes": 1228,
+          "partyCode": "BEBAS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "DATO` JAKARIAH BIN JANIT",
+          "votes": 41,
+          "partyCode": "GAGASAN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "AMRAH BIN LIWANGSA",
+          "votes": 1634,
+          "partyCode": "WARISAN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.60",
+      "dunName": "N.60 TUNGKU",
+      "dunShortName": "TUNGKU",
+      "parliamentCode": "188",
+      "winnnerCandidateSequence": "4",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "JUMAAT BIN ANWAR",
+          "votes": 154,
+          "partyCode": "BEBAS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "JANI BIN KULMEN",
+          "votes": 142,
+          "partyCode": "PCS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "AMIL BANGSA BIN AMIL AHSAN",
+          "votes": 24,
+          "partyCode": "PKS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "ASSAFFAL @ SAMSUL KAMAL BIN P. ALIAN",
+          "votes": 3792,
+          "partyCode": "WARISAN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "MOHAMMAD BIN SIDAM",
+          "votes": 79,
+          "partyCode": "USNO"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "MOMEN @ ABD MOMEN BIN ANCHAI @ ANGHAI",
+          "votes": 3524,
+          "partyCode": "BN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.61",
+      "dunName": "N.61 SEGAMA",
+      "dunShortName": "SEGAMA",
+      "parliamentCode": "188",
+      "winnnerCandidateSequence": "7",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "BASRI ABD GAPAR",
+          "votes": 135,
+          "partyCode": "GAGASAN"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "KAMIS BIN BURHAN",
+          "votes": 510,
+          "partyCode": "BEBAS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "KAMARUDIN BIN MOHMAD CHINKI",
+          "votes": 570,
+          "partyCode": "PCS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "NICHOLAS VOO VUNE KETT",
+          "votes": 67,
+          "partyCode": "LDP"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "SAHIDIN BIN RABAHA",
+          "votes": 399,
+          "partyCode": "PPRS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "ALJEN BIN JOHNNY",
+          "votes": 2696,
+          "partyCode": "PN"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "MOHAMADDIN BIN KETAPI",
+          "votes": 4864,
+          "partyCode": "WARISAN"
+        },
+        "8": {
+          "candidateSequence": "8",
+          "candidateName": "JIKAMISAH BINTI ABDUL SALAM",
+          "votes": 39,
+          "partyCode": "USNO"
+        }
+      }
+    },
+    {
+      "dunCode": "N.62",
+      "dunName": "N.62 SILAM",
+      "dunShortName": "SILAM",
+      "parliamentCode": "188",
+      "winnnerCandidateSequence": "3",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "AHMAD BIN TIONG @ BABA",
+          "votes": 122,
+          "partyCode": "GAGASAN"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "MATUSIN BIN SUNSANG",
+          "votes": 196,
+          "partyCode": "PCS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "DUMI BIN PG. MASDAL",
+          "votes": 5200,
+          "partyCode": "WARISAN"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "MOHAMMAD HAMDAN BIN ABDULLAH",
+          "votes": 54,
+          "partyCode": "USNO"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "HJ ABDUL HAKIM BIN HJ GULAM HASSAN @ HJ MUDA",
+          "votes": 3658,
+          "partyCode": "PN"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "ERWAN BIN JOHAN",
+          "votes": 156,
+          "partyCode": "PPRS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.63",
+      "dunName": "N.63 KUNAK",
+      "dunShortName": "KUNAK",
+      "parliamentCode": "188",
+      "winnnerCandidateSequence": "1",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "NORAZLINAH BINTI ARIF",
+          "votes": 3861,
+          "partyCode": "WARISAN"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "HASBI BIN SARIAT",
+          "votes": 290,
+          "partyCode": "GAGASAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "NUR AINI BINTI ABDUL RAHMAN",
+          "votes": 404,
+          "partyCode": "LDP"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "MOHD AZMAN @ ABDUL SAMAD BIN ASIMAN",
+          "votes": 77,
+          "partyCode": "PCS"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "UTOH JOEHANN BIN ANGKIE",
+          "votes": 32,
+          "partyCode": "USNO"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "HALID BIN HARUN",
+          "votes": 3272,
+          "partyCode": "BN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.64",
+      "dunName": "N.64 SULABAYAN",
+      "dunShortName": "SULABAYAN",
+      "parliamentCode": "189",
+      "winnnerCandidateSequence": "2",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "ALAHUDDIN BIN MOHD. SARAH",
+          "votes": 75,
+          "partyCode": "PCS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "JAUJAN BIN SAMBAKONG",
+          "votes": 5747,
+          "partyCode": "WARISAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "ABDUL MANAN BIN INDANAN",
+          "votes": 2502,
+          "partyCode": "BN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.65",
+      "dunName": "N.65 SENALLANG",
+      "dunShortName": "SENALLANG",
+      "parliamentCode": "189",
+      "winnnerCandidateSequence": "2",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "D. PG. AHMAD BIN DATU ALI ALAM",
+          "votes": 39,
+          "partyCode": "PPRS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "MOHD SHAFIE BIN APDAL",
+          "votes": 6363,
+          "partyCode": "WARISAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "NORAZMAN HJ. UTOH NAIN",
+          "votes": 1732,
+          "partyCode": "PN"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "MOHAMMAD RAMZAN BIN ABDUL WAHAB",
+          "votes": 61,
+          "partyCode": "USNO"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "MADJALIS KK LAIS",
+          "votes": 51,
+          "partyCode": "PCS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.66",
+      "dunName": "N.66 BUGAYA",
+      "dunShortName": "BUGAYA",
+      "parliamentCode": "189",
+      "winnnerCandidateSequence": "2",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "JIHEK BIN BASANU",
+          "votes": 115,
+          "partyCode": "PCS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "MANIS MUKA BINTI HJ. MOHD DARAH",
+          "votes": 8557,
+          "partyCode": "WARISAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "RASIDAN BIN ABD LATIFF",
+          "votes": 92,
+          "partyCode": "BEBAS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "AHMAD BIN HJ KENAJAAN",
+          "votes": 99,
+          "partyCode": "USNO"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "MOHD DAUD BIN TAMPOKONG",
+          "votes": 2552,
+          "partyCode": "PN"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "ABDUL JAN BIN MUAMMIL @ ABDUL JIM",
+          "votes": 31,
+          "partyCode": "BEBAS"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "TARAJI BIN JAMDI",
+          "votes": 49,
+          "partyCode": "PPRS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.67",
+      "dunName": "N.67 BALUNG",
+      "dunShortName": "BALUNG",
+      "parliamentCode": "190",
+      "winnnerCandidateSequence": "4",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "ABDUL HAMID BIN DAMANG",
+          "votes": 110,
+          "partyCode": "PCS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "LABOSA @ GHAZALI BIN JAKILAN",
+          "votes": 33,
+          "partyCode": "USNO"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "ABU BAKAR BIN JAMBUAN @ OMAR",
+          "votes": 26,
+          "partyCode": "GAGASAN"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "HAMILD @ HAMID BIN AWANG",
+          "votes": 3524,
+          "partyCode": "BN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "CYRIL ALOYSIUS",
+          "votes": 67,
+          "partyCode": "LDP"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "ANDI RUS DIANA BT ANDI PALADJARENG",
+          "votes": 2944,
+          "partyCode": "WARISAN"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "ARIFFIN BIN KASSIM IBONG",
+          "votes": 1213,
+          "partyCode": "HARAPAN RAKYAT"
+        }
+      }
+    },
+    {
+      "dunCode": "N.68",
+      "dunName": "N.68 APAS",
+      "dunShortName": "APAS",
+      "parliamentCode": "190",
+      "winnnerCandidateSequence": "1",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "NIZAM BIN DATUK ABU BAKAR TITINGAN",
+          "votes": 6252,
+          "partyCode": "PN"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "DATUK INDAL",
+          "votes": 186,
+          "partyCode": "PCS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "AMRULLAH @ AMBRULLAH BIN KAMAL",
+          "votes": 4203,
+          "partyCode": "WARISAN"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "MOHD SAYADI BIN BAKAL",
+          "votes": 83,
+          "partyCode": "USNO"
+        }
+      }
+    },
+    {
+      "dunCode": "N.69",
+      "dunName": "N.69 SRI TANJONG",
+      "dunShortName": "SRI TANJONG",
+      "parliamentCode": "190",
+      "winnnerCandidateSequence": "4",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "WONG SU VUI",
+          "votes": 117,
+          "partyCode": "GAGASAN"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "LIM TING KHAI",
+          "votes": 276,
+          "partyCode": "LDP"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "RICKY PANG SIAU CHERN",
+          "votes": 46,
+          "partyCode": "PPRS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "JUSTIN WONG YUNG BIN",
+          "votes": 11150,
+          "partyCode": "WARISAN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "KOUR KEN-KEAT",
+          "votes": 80,
+          "partyCode": "PCS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "YAPP YIN HOAU",
+          "votes": 568,
+          "partyCode": "HARAPAN RAKYAT"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "CHUNG YAW VUI",
+          "votes": 52,
+          "partyCode": "BEBAS"
+        },
+        "8": {
+          "candidateSequence": "8",
+          "candidateName": "FUNG LEN FUI",
+          "votes": 2270,
+          "partyCode": "PN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.70",
+      "dunName": "N.70 KUKUSAN",
+      "dunShortName": "KUKUSAN",
+      "parliamentCode": "191",
+      "winnnerCandidateSequence": "4",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "ISMAIL IDRIS @ PAKCIK.EL",
+          "votes": 80,
+          "partyCode": "USNO"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "TAUFIK BIN MUIN",
+          "votes": 75,
+          "partyCode": "PCS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "WONG JIN SOON",
+          "votes": 796,
+          "partyCode": "HARAPAN RAKYAT"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "RINA HJ. JAINAL",
+          "votes": 2834,
+          "partyCode": "WARISAN"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "ROSDIANSA BIN MOHD NOOR",
+          "votes": 34,
+          "partyCode": "PPRS"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "CHAYA BINTI SULAIMAN",
+          "votes": 2824,
+          "partyCode": "BN"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "LEE BOON KING",
+          "votes": 21,
+          "partyCode": "GAGASAN"
+        }
+      }
+    },
+    {
+      "dunCode": "N.71",
+      "dunName": "N.71 TANJUNG BATU",
+      "dunShortName": "TANJUNG BATU",
+      "parliamentCode": "191",
+      "winnnerCandidateSequence": "1",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "ANDI MUHAMMAD SURYADY BIN BANDY",
+          "votes": 4728,
+          "partyCode": "BN"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "RUDY BIN NURDIN",
+          "votes": 130,
+          "partyCode": "PCS"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "KAMSHARI @ JOHARI IBRAHIM",
+          "votes": 79,
+          "partyCode": "PPRS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "ZULKIFLI BIN AHMAD",
+          "votes": 58,
+          "partyCode": "USNO"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "MOHD AFSAR BIN ABD LATIF",
+          "votes": 2605,
+          "partyCode": "WARISAN"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "ASMARI @ NAS BIN UDOH",
+          "votes": 16,
+          "partyCode": "BEBAS"
+        }
+      }
+    },
+    {
+      "dunCode": "N.72",
+      "dunName": "N.72 MEROTAI",
+      "dunShortName": "MEROTAI",
+      "parliamentCode": "191",
+      "winnnerCandidateSequence": "3",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "HAFEEZATUL HALIMAH BINTI MOHAMAD",
+          "votes": 60,
+          "partyCode": "USNO"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "SHIM NYAT YUN",
+          "votes": 30,
+          "partyCode": "LDP"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "SARIFUDDIN HATA",
+          "votes": 4058,
+          "partyCode": "WARISAN"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "ABDULLAH BIN PALILE",
+          "votes": 86,
+          "partyCode": "PCS"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "MOHAMAD JALANI BIN CHACHU",
+          "votes": 2471,
+          "partyCode": "PN"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "LIEW YUN FAH",
+          "votes": 1779,
+          "partyCode": "HARAPAN RAKYAT"
+        }
+      }
+    },
+    {
+      "dunCode": "N.73",
+      "dunName": "N.73 SEBATIK",
+      "dunShortName": "SEBATIK",
+      "parliamentCode": "191",
+      "winnnerCandidateSequence": "2",
+      "candidates": {
+        "1": {
+          "candidateSequence": "1",
+          "candidateName": "JUHURAN BIN KALMIN",
+          "votes": 90,
+          "partyCode": "BEBAS"
+        },
+        "2": {
+          "candidateSequence": "2",
+          "candidateName": "HASSAN A GANI PG AMIR",
+          "votes": 2665,
+          "partyCode": "WARISAN"
+        },
+        "3": {
+          "candidateSequence": "3",
+          "candidateName": "ABDUL SAMAT BIN AKUI",
+          "votes": 504,
+          "partyCode": "PCS"
+        },
+        "4": {
+          "candidateSequence": "4",
+          "candidateName": "BAHARUDDIN BIN BASRIE",
+          "votes": 140,
+          "partyCode": "PPRS"
+        },
+        "5": {
+          "candidateSequence": "5",
+          "candidateName": "DATUK HJ ABD MUIS HJ PICHO",
+          "votes": 2143,
+          "partyCode": "PN"
+        },
+        "6": {
+          "candidateSequence": "6",
+          "candidateName": "HASSAN BIN IBRAHIM",
+          "votes": 253,
+          "partyCode": "USNO"
+        },
+        "7": {
+          "candidateSequence": "7",
+          "candidateName": "MOHD BALBIR BIN ARJAN",
+          "votes": 183,
+          "partyCode": "BEBAS"
+        }
+      }
+    }
+  ],
+  "parties": {
+    "BN": {
+      "color": "#004080",
+      "partiName": "BARISAN NASIONAL (BN)"
+    },
+    "WARISAN": {
+      "color": "#99CCFF",
+      "partiName": "PARTI WARISAN SABAH (WARISAN)"
+    },
+    "BEBAS": {
+      "color": "#993300",
+      "partiName": "BEBAS (BEBAS)"
+    },
+    "USNO": {
+      "color": "#003300",
+      "partiName": "PERTUBUHAN KEBANGSAAN SABAH BERSATU (USNO)"
+    },
+    "PCS": {
+      "color": "#802000",
+      "partiName": "PARTI CINTA SABAH (PCS)"
+    },
+    "PPRS": {
+      "color": "#0000FF",
+      "partiName": "PARTI PERPADUAN RAKYAT SABAH (PPRS)"
+    },
+    "PBS": {
+      "color": "#6666ff",
+      "partiName": "PARTI BERSATU SABAH (PBS)"
+    },
+    "GAGASAN": {
+      "color": "#fff",
+      "partiName": "PARTI GAGASAN RAKYAT SABAH (GAGASAN)"
+    },
+    "UPKO": {
+      "color": "#2a0e72",
+      "partiName": "PERTUBUHAN KINABALU PROGRESIF BERSATU (UPKO)"
+    },
+    "LDP": {
+      "color": "#ab3d1a",
+      "partiName": "PARTI LIBERAL DEMOKRATIK (LDP)"
+    },
+    "PN": {
+      "color": "#002e4d",
+      "partiName": "PERIKATAN NASIONAL (PN)"
+    },
+    "PKR": {
+      "color": "#04A0D1",
+      "partiName": "PARTI KEADILAN RAKYAT (PKR)"
+    },
+    "ANAK NEGERI": {
+      "color": "#002db3",
+      "partiName": "PARTI KERJASAMA ANAK NEGERI (ANAK NEGERI)"
+    },
+    "HARAPAN RAKYAT": {
+      "color": "#9999ff",
+      "partiName": "PARTI HARAPAN RAKYAT SABAH (HARAPAN RAKYAT)"
+    },
+    "PKS": {
+      "color": "#0069cc",
+      "partiName": "PARTI KEBANGSAAN SABAH (PKS)"
+    }
+  }
+}
