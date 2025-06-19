@@ -67,7 +67,8 @@ export default function Display(props: DisplayProps) {
         <div className="flex gap-4 col-span-6 mx-auto w-full overflow-x-auto">
             <div className="my-auto">Filters</div>
             {allParties.map((partyCode, i) => <button key={i}
-                className={`ring-2 p-2 rounded-xl ${filters.parties.includes(partyCode) && "bg-white text-black"}`}
+                // className={`my-2 ring-foreground ring-2 p-2 rounded-xl ${filters.parties.includes(partyCode) && "bg-foreground text-background"}`}
+                className={`my-2 ring-foreground p-2 rounded-xl ${filters.parties.includes(partyCode) ? "bg-neutral-400" : "ring-1"}`}
                 onClick={() => {
                     let parties = [...filters.parties];
                     const index = parties.indexOf(partyCode);

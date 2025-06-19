@@ -31,7 +31,7 @@ export default function SeatCircle(props: SeatCircleProps) {
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             style={{ borderColor: color || "#fff", borderWidth: "8px" }}
-            className={`rounded-full h-full w-full flex text-neutral-100`}
+            className={`rounded-full h-full w-full flex`}
         >
 
             <div className="m-auto flex flex-col">
