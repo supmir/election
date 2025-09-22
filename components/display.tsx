@@ -30,6 +30,34 @@ export default function Display(props: DisplayProps) {
 
     const allParties = Object.keys(props.data.parties);
 
+    const coalitions: Record<string, string[]> = {
+        GRS: [
+            "PCS",
+            "PPRS",
+            "PBS",
+            "ANAK NEGERI",
+            "HARAPAN RAKYAT",
+        ],
+        PH: [
+            "WARISAN",
+            "PKR",
+            "PN",
+        ],
+        BN: [
+            "BN",
+            "USNO",
+            "GAGASAN",
+            "UPKO",
+            "LDP",
+        ],
+        "Lain-Lain": [
+            "Bebas",
+            "PKS",
+        ]
+
+
+    };
+
     const [filters, setFilters] = useState<Filters>({
         parties: []
     });
@@ -63,85 +91,104 @@ export default function Display(props: DisplayProps) {
             <div className="w-1/2 bg-red-500"></div>
             <div className="w-1/2 bg-blue-500"></div>
         </div>
+        <div className="flex flex-wrap">
+            <div className="gap-4 max-w-sm px-2">
+                <div className="my-auto">Filters</div>
+                {Object.keys(coalitions).map((coalition, i) => {
+                    return <details key={i}>
+                        <summary className="font-black text-lg">
+                            {coalition}
+                        </summary>
+                        <div className="flex flex-col">
+                            {coalitions[coalition].map((k, j) => {
+                                const partyCode = allParties.filter((partyCode) => {
+                                    return partyCode === k;
+                                })[0];
+                                if (partyCode) {
+                                    return <button key={j}
 
-        <div className="flex gap-4 col-span-6 mx-auto w-full overflow-x-auto">
-            <div className="my-auto">Filters</div>
-            {allParties.map((partyCode, i) => <button key={i}
-                // className={`my-2 ring-foreground ring-2 p-2 rounded-xl ${filters.parties.includes(partyCode) && "bg-foreground text-background"}`}
-                className={`my-2 ring-foreground p-2 rounded-xl ${filters.parties.includes(partyCode) ? "bg-neutral-400" : "ring-1"}`}
-                onClick={() => {
-                    let parties = [...filters.parties];
-                    const index = parties.indexOf(partyCode);
-                    console.log(index);
+                                        className={`text-left ${filters.parties.includes(partyCode) ? "font-bold" : ""}`}
 
-                    if (parties.length === allParties.length) {
-                        parties = parties.splice(index, 1);
-                    } else {
-                        if (index === -1) {
-                            parties = [partyCode, ...parties];
-                        } else {
-                            parties.splice(index, 1);
-                        }
-                    }
-                    setFilters({
-                        ...filters,
-                        parties: parties
-                    });
-                }}
-            >
-                {partyCode}
-            </button>)}
-        </div>
-        <div className="flex flex-col gap-2 mx-auto">
-            {[...Array(Math.ceil(displayedDunDetails.length / CHUNK_SIZE))].map((_, row) => {
-                const start = row * CHUNK_SIZE;
-                const end = start + CHUNK_SIZE;
+                                        onClick={() => {
+                                            let parties = [...filters.parties];
+                                            const index = parties.indexOf(partyCode);
+                                            console.log(index);
 
-                const showDetails = viewDetail.displaySeq >= start && viewDetail.displaySeq < end;
-                return <Fragment key={row}>
-                    <div className="grid grid-cols-4">
-                        {displayedDunDetails.slice(start, end).map((val, col) => {
-                            const winnerCandidate = val.candidates[val.winnnerCandidateSequence];
-                            const winnerPartyCode = winnerCandidate.partyCode;
-                            const winnerPartyDetails = props.data.parties[winnerPartyCode];
-
-                            const displaySeq = start + col;
-                            const isSelected = viewDetail.displaySeq === start + col;
-
-                            return <div
-                                key={val.dunName}
-                                className="flex flex-col"
-                            >
-                                <SeatCircle
-                                    color={winnerPartyDetails.color}
-                                    dunCode={val.dunCode}
-                                    layoutId={val.dunName}
-                                    partyCode={winnerPartyCode}
-                                    onClick={() => {
-                                        if (val.dunName === viewDetail.dunName)
-                                            setViewDetail({ i: -1, displaySeq: -1, dunName: "" });
-                                        else
-                                            setViewDetail(
-                                                {
-                                                    i: row,
-                                                    displaySeq: displaySeq,
-                                                    dunName: val.dunName,
+                                            if (parties.length === allParties.length) {
+                                                parties = parties.splice(index, 1);
+                                            } else {
+                                                if (index === -1) {
+                                                    parties = [partyCode, ...parties];
+                                                } else {
+                                                    parties.splice(index, 1);
                                                 }
-                                            );
-                                    }}
-                                    isSelected={isSelected}
-                                />
-                                {/* {showDetails && !isSelected && <div className="w-full border-2"></div>} */}
-                            </div>;
-                        })}
-                    </div>
+                                            }
+                                            setFilters({
+                                                ...filters,
+                                                parties: parties
+                                            });
+                                        }}
+                                    >
+                                        - {partyCode}
+                                    </button>;
+                                }
+                            })}
+                        </div>
+                    </details>;
+                })}
+            </div>
+            <div className="flex flex-col gap-2 mx-auto">
+                {[...Array(Math.ceil(displayedDunDetails.length / CHUNK_SIZE))].map((_, row) => {
+                    const start = row * CHUNK_SIZE;
+                    const end = start + CHUNK_SIZE;
 
-                    {showDetails && <DetailCard
-                        dunDetails={displayedDunDetails[viewDetail.displaySeq]}
+                    const showDetails = viewDetail.displaySeq >= start && viewDetail.displaySeq < end;
+                    return <Fragment key={row}>
+                        <div className="grid grid-cols-4">
+                            {displayedDunDetails.slice(start, end).map((val, col) => {
+                                const winnerCandidate = val.candidates[val.winnnerCandidateSequence];
+                                const winnerPartyCode = winnerCandidate.partyCode;
+                                const winnerPartyDetails = props.data.parties[winnerPartyCode];
 
-                    />}
-                </Fragment>;
-            })}
+                                const displaySeq = start + col;
+                                const isSelected = viewDetail.displaySeq === start + col;
+
+                                return <div
+                                    key={val.dunName}
+                                    className="flex flex-col"
+                                >
+                                    <SeatCircle
+                                        color={winnerPartyDetails.color}
+                                        dunCode={val.dunCode}
+                                        layoutId={val.dunName}
+                                        partyCode={winnerPartyCode}
+                                        onClick={() => {
+                                            if (val.dunName === viewDetail.dunName)
+                                                setViewDetail({ i: -1, displaySeq: -1, dunName: "" });
+                                            else
+                                                setViewDetail(
+                                                    {
+                                                        i: row,
+                                                        displaySeq: displaySeq,
+                                                        dunName: val.dunName,
+                                                    }
+                                                );
+                                        }}
+                                        isSelected={isSelected}
+                                    />
+                                    {/* {showDetails && !isSelected && <div className="w-full border-2"></div>} */}
+                                </div>;
+                            })}
+                        </div>
+
+                        {showDetails && <DetailCard
+                            dunDetails={displayedDunDetails[viewDetail.displaySeq]}
+
+                        />}
+                    </Fragment>;
+                })}
+            </div>
+
         </div>
 
     </div>;
