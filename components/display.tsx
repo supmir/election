@@ -51,7 +51,7 @@ export default function Display(props: DisplayProps) {
             "LDP",
         ],
         "Lain-Lain": [
-            "Bebas",
+            "BEBAS",
             "PKS",
         ]
 
