@@ -97,7 +97,7 @@ export default function Display(props: DisplayProps) {
                 {Object.keys(coalitions).map((coalition, i) => {
                     return <details key={i}>
                         <summary className="font-black text-lg">
-                            {coalition}
+                            <button>{coalition}</button>
                         </summary>
                         <div className="flex flex-col">
                             {coalitions[coalition].map((k, j) => {
@@ -107,7 +107,7 @@ export default function Display(props: DisplayProps) {
                                 if (partyCode) {
                                     return <button key={j}
 
-                                        className={`text-left ${filters.parties.includes(partyCode) ? "font-bold" : ""}`}
+                                        className={`ml-8 text-left ${filters.parties.includes(partyCode) ? "font-bold" : ""}`}
 
                                         onClick={() => {
                                             let parties = [...filters.parties];
@@ -129,7 +129,7 @@ export default function Display(props: DisplayProps) {
                                             });
                                         }}
                                     >
-                                        - {partyCode}
+                                        {partyCode}
                                     </button>;
                                 }
                             })}
