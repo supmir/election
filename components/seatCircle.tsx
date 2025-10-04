@@ -30,13 +30,13 @@ export default function SeatCircle(props: SeatCircleProps) {
         <motion.button
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
-            style={{ borderColor: color || "#fff", borderWidth: "8px" }}
-            className={`rounded-full h-full w-full flex`}
+            style={{ backgroundColor: color || "#000", borderWidth: "8px" }}
+            className={`rounded-4xl h-full w-full flex text-neutral-50`}
         >
 
             <div className="m-auto flex flex-col">
-                <div>{partyCode === "WARISAN" ? "WRSN" : partyCode}</div>
-                <div>{dunCode}</div>
+                {/* <div>{partyCode === "WARISAN" ? "WRSN" : partyCode}</div> */}
+                <div className="text-2xl font-bold">{dunCode}</div>
             </div>
         </motion.button>
     </motion.div>;
