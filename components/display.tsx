@@ -28,7 +28,8 @@ export default function Display(props: DisplayProps) {
         dunName: ""
     });
 
-    const allParties = Object.keys(props.data.parties);
+    const allParties = props.data.parties;
+    const allPartyKeys = Object.keys(allParties);
 
     const coalitions: Record<string, string[]> = {
         GRS: [
@@ -94,6 +95,16 @@ export default function Display(props: DisplayProps) {
         <div className="flex flex-wrap">
             <div className="gap-4 max-w-sm px-2">
                 <div className="my-auto">Filters</div>
+                <input className="my-auto ring px-2" placeholder="Search..." onChange={(e) => {
+                    const key = e.currentTarget.value;
+                    setFilters({
+                        ...filters,
+                        parties: allPartyKeys.filter((party) => {
+                            return party.toLowerCase().includes(key.toLowerCase()) || allParties[party].partiName.toLowerCase().includes(key.toLowerCase());
+                        })
+                    });
+
+                }} />
                 {Object.keys(coalitions).map((coalition, i) => {
                     return <details key={i}>
                         <summary className="font-black text-lg">
@@ -101,7 +112,7 @@ export default function Display(props: DisplayProps) {
                         </summary>
                         <div className="flex flex-col">
                             {coalitions[coalition].map((k, j) => {
-                                const partyCode = allParties.filter((partyCode) => {
+                                const partyCode = allPartyKeys.filter((partyCode) => {
                                     return partyCode === k;
                                 })[0];
                                 if (partyCode) {
@@ -114,7 +125,7 @@ export default function Display(props: DisplayProps) {
                                             const index = parties.indexOf(partyCode);
                                             console.log(index);
 
-                                            if (parties.length === allParties.length) {
+                                            if (parties.length === allPartyKeys.length) {
                                                 parties = parties.splice(index, 1);
                                             } else {
                                                 if (index === -1) {
