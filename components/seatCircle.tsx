@@ -1,3 +1,4 @@
+import { bestTextColor } from "@/utils/colors";
 import { motion } from "motion/react";
 interface SeatCircleProps {
     layoutId: string;
@@ -30,8 +31,8 @@ export default function SeatCircle(props: SeatCircleProps) {
         <motion.button
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
-            style={{ backgroundColor: color || "#000", borderWidth: "8px" }}
-            className={`rounded-4xl h-full w-full flex text-neutral-50`}
+            style={{ backgroundColor: color || "#000", color: bestTextColor(color) }}
+            className={`rounded-4xl h-full w-full flex`}
         >
 
             <div className="m-auto flex flex-col">
