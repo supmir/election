@@ -27,7 +27,6 @@ export default function Display(props: DisplayProps) {
         displaySeq: -1,
         dunName: ""
     });
-
     const allParties = props.data.parties;
     const allPartyKeys = Object.keys(allParties);
 
@@ -88,9 +87,45 @@ export default function Display(props: DisplayProps) {
 
 
     return <div className="flex flex-col gap-4">
-        <div className="h-4 flex">
-            <div className="w-1/2 bg-red-500"></div>
-            <div className="w-1/2 bg-blue-500"></div>
+        Total seats: {props.data.dunList.length}
+        <div className="flex">
+            {
+
+                allPartyKeys.map((partyKey) => {
+                    const wonSeats = props.data.dunList.reduce((prev, curr) => {
+                        return prev + (curr.candidates[curr.winnnerCandidateSequence].partyCode == partyKey ? 1 : 0);
+                    }, 0);
+                    const percentage = wonSeats / props.data.dunList.length * 100;
+                    return { partyKey, wonSeats, percentage };
+
+                }).sort((a, b) => (b.wonSeats - a.wonSeats)).map(({ partyKey, wonSeats, percentage }) =>
+                    <div
+                        style={{
+                            width: percentage + "%"
+                        }}
+                        className="overflow-hidden"
+                    >
+                        <div className="font-bold text-4xl">
+
+                            {wonSeats}
+                        </div>
+                        {/* <span
+                            className="text-xl overflow-ellipsis text-nowrap"
+                        >
+                            {allParties[partyKey].partiName.slice(0, allParties[partyKey].partiName.indexOf(" ("))}{" "}
+                        </span> */}
+                        <div
+                            className="overflow-hidden text-2xl"
+                        >
+                            {partyKey}
+                        </div>
+
+                        <div className="h-8" style={{ backgroundColor: props.data.parties[partyKey].color }}>
+
+                        </div>
+                    </div>)
+            }
+
         </div>
         <div className="flex flex-wrap">
             <div className="gap-4 max-w-sm px-2">
