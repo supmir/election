@@ -71,7 +71,8 @@ export default function Display(props: DisplayProps) {
         if (filters.parties.length > 0)
             filters.parties.forEach(party => {
                 newDisplayedData = [...newDisplayedData, ...props.data.dunList.filter((val) => {
-                    return val.candidates[val.winnnerCandidateSequence].partyCode === party;
+                    return Object.keys(val.candidates).some((seq) => val.candidates[seq].partyCode === party);
+                    // return val.candidates[val.winnnerCandidateSequence].partyCode === party;
                 })];
             });
         else
@@ -98,8 +99,9 @@ export default function Display(props: DisplayProps) {
                     const percentage = wonSeats / props.data.dunList.length * 100;
                     return { partyKey, wonSeats, percentage };
 
-                }).sort((a, b) => (b.wonSeats - a.wonSeats)).map(({ partyKey, wonSeats, percentage }) =>
+                }).sort((a, b) => (b.wonSeats - a.wonSeats)).map(({ partyKey, wonSeats, percentage }, index) =>
                     <div
+                        key={index}
                         style={{
                             width: percentage + "%"
                         }}

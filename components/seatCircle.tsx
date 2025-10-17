@@ -10,7 +10,7 @@ interface SeatCircleProps {
 }
 
 export default function SeatCircle(props: SeatCircleProps) {
-    const { layoutId, color, partyCode, dunCode, onClick } = props;
+    const { layoutId, color, dunCode, onClick } = props;
 
     return <motion.div
         layout
