@@ -31,16 +31,12 @@ export default function Display(props: DisplayProps) {
     const allPartyKeys = Object.keys(allParties);
 
     const coalitions: Record<string, string[]> = {
-        GRS: [
-            "PCS",
-            "PPRS",
-            "PBS",
-            "ANAK NEGERI",
-            "HARAPAN RAKYAT",
-        ],
         PH: [
             "WARISAN",
             "PKR",
+            "UPKO",
+        ],
+        PN: [
             "PN",
         ],
         BN: [
@@ -51,6 +47,11 @@ export default function Display(props: DisplayProps) {
             "LDP",
         ],
         "Lain-Lain": [
+            "PCS",
+            "PPRS",
+            "PBS",
+            "ANAK NEGERI",
+            "HARAPAN RAKYAT",
             "BEBAS",
             "PKS",
         ]
@@ -77,6 +78,8 @@ export default function Display(props: DisplayProps) {
             });
         else
             newDisplayedData = [...props.data.dunList];
+
+        newDisplayedData = [...(new Set(newDisplayedData))];
 
         setDisplayedData(newDisplayedData);
         setViewDetail({ i: -1, displaySeq: -1, dunName: "" });
